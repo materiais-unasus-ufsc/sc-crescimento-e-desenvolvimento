@@ -1,0 +1,3 @@
+[submodule "src/sc-common"]
+	path = src/sc-common
+	url = git@github.com:materiais-unasus-ufsc/sc-common.git
