@@ -4337,6 +4337,17 @@ h5 {
   line-height: 1.5rem;
 }
 
+nav > ul > li {
+  list-style: none;
+  padding-left: 1rem;
+}
+nav > ul > li::before {
+  content: url("../sc-common/img/common/bullet-main.png");
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
 ul {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -4361,10 +4372,6 @@ a {
 }
 a[role=button] {
   color: #f29e4a;
-}
-
-li {
-  list-style-image: url("../sc-common/img/common/bullet-main.png");
 }
 
 figure {
@@ -4492,7 +4499,9 @@ header .ci-hamburger {
 .popover-body > :last-child {
   margin-bottom: 0;
 }
-.popover-body p, .popover-body ul, .popover-body li {
+.popover-body p,
+.popover-body ul,
+.popover-body li {
   font-size: 0.875rem;
   line-height: 1.5;
   margin-top: 1rem;
