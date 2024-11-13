@@ -4386,6 +4386,10 @@ figure {
 figure figcaption {
   line-height: 2rem;
 }
+figure svg {
+  max-width: 100%;
+  height: auto;
+}
 
 /* #region Row */
 section > .row > div > *:first-child {
