@@ -4337,20 +4337,24 @@ h5 {
   line-height: 1.5rem;
 }
 
-nav > ul > li {
-  list-style: none;
-  padding-left: 1rem;
-}
 nav > ul > li::before {
-  content: url("../sc-common/img/common/bullet-main.png");
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 1rem;
+  content: url("../img/common/bullet-nav.svg");
+  vertical-align: -4%;
 }
 
 ul {
   margin-top: 20px;
   margin-bottom: 30px;
+}
+ul li {
+  list-style-type: none;
+  text-indent: -1rem;
+}
+ul li::before {
+  content: url("../img/common/bullet-main.svg");
+  display: inline-block;
+  vertical-align: -8%;
+  margin-right: 1rem;
 }
 
 p,
@@ -4494,9 +4498,6 @@ header .ci-hamburger {
   margin-top: 0;
 }
 
-.popover-body {
-  background-color: #ffe0c2;
-}
 .popover-body > :first-child {
   margin-top: 0;
 }
@@ -4517,14 +4518,64 @@ header .ci-hamburger {
   margin-bottom: 0.5rem;
 }
 
-.accordion-button {
-  font-weight: bolder;
+/* #endregion Bootstrap components */
+.video {
+  width: 100%;
+  border-radius: 1rem;
+}
+.video svg {
+  width: 100%;
 }
 
-/* #endregion Bootstrap components */
+.footer-nav {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-nav a {
+  border: none;
+  background-color: transparent;
+}
+
 footer {
   height: 80px;
   background-color: #a3a6d6;
 }
+
+/* #region Bootstrap overrides */
+.popover-body {
+  background-color: #ffe0c2;
+}
+
+.accordion-item {
+  margin: 1rem 0;
+  border: none;
+}
+.accordion-item:first-child {
+  margin-top: 0;
+}
+.accordion-item:last-child {
+  margin-bottom: 0;
+}
+
+.accordion-button {
+  border-radius: 1rem !important;
+  background-color: #98bcd7;
+  font-weight: bolder;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #b9d5ea;
+}
+
+.accordion-body {
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  background-color: #dcedfa;
+}
+
+/* #endregion Bootstrap overrides */
 
 /*# sourceMappingURL=style.css.map */

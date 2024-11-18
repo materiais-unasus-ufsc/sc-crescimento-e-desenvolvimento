@@ -1,3 +1,39 @@
 /* Estilos específicos para este módulo do curso Saúde da Criança. */
 
-@use "../sc-common/common.scss";
+@import "../sc-common/common.scss";
+
+
+/* #region Bootstrap overrides */
+
+// Popovers
+.popover-body {
+  background-color: $primary-orange-lightest;
+}
+
+// Accordions
+.accordion-item {
+  margin: 1rem 0;
+  border: none;
+  &:first-child {
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.accordion-button {
+  border-radius: 1rem !important;
+  background-color: $primary-blue;
+  font-weight: bolder;
+
+  &:not(.collapsed) {
+    background-color: $primary-blue-light;
+  }
+}
+.accordion-body {
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  background-color: $primary-blue-hyperlight;
+}
+
+/* #endregion Bootstrap overrides */
