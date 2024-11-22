@@ -4395,6 +4395,10 @@ figure svg {
   height: auto;
 }
 
+pre {
+  white-space: pre-line;
+}
+
 /* #region Row */
 section > .row > div > *:first-child {
   margin-top: 0;
