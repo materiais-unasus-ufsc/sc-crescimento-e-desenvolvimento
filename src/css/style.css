@@ -4493,8 +4493,12 @@ header .ci-hamburger {
   margin: 0;
   min-width: 200px;
 }
-.callout li {
-  list-style: disc;
+.callout li::before {
+  content: "•";
+  font-size: 2rem;
+  vertical-align: -15%;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 /* #endregion Callout */
@@ -4518,9 +4522,11 @@ header .ci-hamburger {
   margin-bottom: 1rem;
 }
 .popover-body li {
-  list-style: disc;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+.popover-body li::before {
+  content: "•";
 }
 
 /* #endregion Bootstrap components */
