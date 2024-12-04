@@ -4297,7 +4297,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playpen Sans", sans-serif;
   text-align: left;
   hyphens: none;
   margin-top: 2rem;
@@ -4312,26 +4311,27 @@ h1 {
 }
 
 h2 {
-  font-size: 2.25rem;
-  line-height: 2.75rem;
-  color: #a3a6d6;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #434556;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 2rem;
-  line-height: 2.5rem;
-  color: #92d3ca;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #70728f;
   font-weight: bold;
 }
 
 h4 {
-  font-size: 1.75rem;
-  line-height: 2.25rem;
-  color: #f29e4a;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #a9abbc;
 }
 
 h5 {
+  font-family: "Playpen Sans", sans-serif;
   color: #e3e5f7;
   font-size: 1.2rem;
   line-height: 1.5rem;
@@ -4424,6 +4424,14 @@ header > div {
 header h5 {
   margin: 1rem 0;
   max-width: 400px;
+  color: white;
+}
+header span.un-tag {
+  font-family: "Playpen Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin-right: 1.5rem;
 }
 header button {
   background-color: transparent;
@@ -4536,6 +4544,7 @@ header .ci-hamburger {
 }
 .video svg {
   width: 100%;
+  height: auto !important;
 }
 
 .footer-nav {
