@@ -4597,5 +4597,14 @@ footer {
 }
 
 /* #endregion Bootstrap overrides */
+figure.figure-title {
+  height: 200px;
+}
+figure.figure-title svg {
+  position: absolute;
+}
+figure.figure-title#fig-title-3 {
+  height: 264px;
+}
 
 /*# sourceMappingURL=style.css.map */
