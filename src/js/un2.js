@@ -5,7 +5,7 @@
 
 export function setupFigureReflexosPrimitivos() {
   document.addEventListener("SVGsLoaded", function () {
-    console.log("--- Setting up figure 2...");
+    console.log("Setting up figure 'reflexos-primitivos'...");
 
     const parser = new DOMParser();
     const modal = document.getElementById("figure-2-modal");
@@ -36,7 +36,7 @@ export function setupFigureReflexosPrimitivos() {
 
       const name = button.id.substring(button.id.indexOf("-") + 1).trim();
       button.setAttribute("data-bs-name", name);
-      console.log(name);
+      console.debug(`Option name: ${name}`);
 
       // SVG insertion into the modal body.
       fetch(`img/un2/reflexos-primitivos/${name}.svg`)
@@ -82,6 +82,6 @@ export function setupFigureReflexosPrimitivos() {
         svg.style.display = "none";
       }
     });
+    console.log("Figure 'reflexos-primitivos' all set");
   });
-  console.log("--- Finisehd figure 2 set up");
 }
