@@ -33,7 +33,7 @@
 .accordion-body {
   margin-top: 0.5rem;
   border-radius: 1rem;
-  background-color: $primary-blue-hyperlight;
+  background-color: $primary-blue-ligher;
 }
 
 /* #endregion Bootstrap overrides */
@@ -46,5 +46,18 @@ figure.figure-title {
 
   &#fig-title-3 {
     height: 264px;
+  }
+}
+
+figure#cuidado-criacao {
+  >div {
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    background-color: $primary-blue-ligher;
+
+    >p {
+      text-align: left;
+      margin: 0.5rem 1rem;
+    }
   }
 }
