@@ -4,6 +4,7 @@
  */
 
 import * as common from "../sc-common/js/common.js";
+import * as helper from "../sc-common/js/helper.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   common.loadFigures();
@@ -16,3 +17,4 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 export const navigate = common.navigate;
+window.showSelector = helper.showSelector;
