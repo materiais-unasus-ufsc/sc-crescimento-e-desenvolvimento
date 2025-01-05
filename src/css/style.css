@@ -4627,6 +4627,12 @@ ul li::before {
   vertical-align: -8%;
   margin-right: 1rem;
 }
+ul li:first-child {
+  margin-top: 0;
+}
+ul li:last-child {
+  margin-bottom: 0;
+}
 
 p,
 li {
@@ -4647,6 +4653,17 @@ a {
 }
 a[role=button] {
   color: #f29e4a;
+}
+
+blockquote {
+  margin-left: 1rem;
+  margin-right: 2rem;
+  padding-left: 1rem;
+  border-left: 2px solid #70728f;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  font-style: italic;
+  color: #434556;
 }
 
 figure {
