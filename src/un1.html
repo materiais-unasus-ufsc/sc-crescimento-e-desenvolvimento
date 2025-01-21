@@ -16,10 +16,10 @@
 <body>
   <header class="component" name="header" un-tag="Un1"></header>
 
-  <div class="hero d-flex align-items-end">
-    <div class="container">
-      <img src="img/un1/title.svg" alt="Hero">
-    </div>
+  <div
+    class="component hero"
+    name="hero"
+    data-title="Considerações introdutórias sobre a infância e os mil dias de vida">
   </div>
 
   <main id="un1">
@@ -28,27 +28,30 @@
       <nav>
         <ul>
           <li>
-            Os primeiros mil dias de vida
+            <a href="#section-primeiros-mil">Os primeiros mil dias de vida</a>
           </li>
           <li>
-            A importância da primeira infância
+            <a href="#section-janela-oportunidade">Conceito de janela de oportunidade</a>
           </li>
           <li>
-            As necessidades básicas da criança e o Modelo do Cuidado Integral (Nurturing Care Framework)
+            <a href="#section-primeira-infancia">Conhecimentos necessários sobre a primeira infância</a>
           </li>
           <li>
-            A intervenção precoce e a janela de oportunidades para o desenvolvimento neuropsicomotor
+            <a href="#section-nurturing-care-framework">As necessidades básicas da criança e o Modelo do Cuidado Integral (<em>Nurturing Care Framework</em>)</a>
+          </li>
+          <li>
+            <a href="#section-intervencao-precoce">A intervenção precoce e a janela de oportunidades para o desenvolvimento neuropsicomotor</a>
           </li>
         </ul>
       </nav>
 
-      <h2>
+      <h2 id="section-intro">
         Introdução da unidade
       </h2>
       <div class="row">
         <div class="col-lg">
           <p>
-            Boas-vindas à primeira unidade! Nesta etapa, você vai compreender a importância da primeira infância e dos primeiros mil dias de vida, vai identificar as necessidades básicas da criança, o Marco do Cuidado Integral (Nurturing Care Framework) e as estratégias utilizadas para a intervenção precoce.
+            Boas-vindas à primeira unidade! Nesta etapa, você vai compreender a importância da primeira infância e dos primeiros mil dias de vida, vai identificar as necessidades básicas da criança, o Marco do Cuidado Integral (<em>Nurturing Care Framework</em>) e as estratégias utilizadas para a intervenção precoce.
           </p>
         </div>
         <div class="col-lg">
@@ -58,18 +61,16 @@
         </div>
       </div>
 
-      <h2>
+      <h2 id="section-primeiros-mil">
         Os primeiros mil dias de vida
       </h2>
       <p>
         Você já deve ter ouvido falar sobre os primeiros mil dias de vida: estes correspondem ao período que vai da concepção até os 2 anos de idade da criança. Confira na imagem como é feita esta contagem.
       </p>
 
-      <figure id="1">
+      <figure id="mil-dias">
         <figcaption>
-          Figura 1 – Os primeiros mil dias da criança.
-        </figcaption>
-        <figcaption>
+          Figura 1 – Os primeiros mil dias da criança.<br>
           Fonte: Adaptada de Elmadfa e Meyer (2012 apud Brasil 2023).
         </figcaption>
       </figure>
@@ -77,7 +78,7 @@
       <div class="row">
         <div class="col-lg">
           <p>
-            Neste contexto, os primeiros mil dias se referem a um período no qual há um maior crescimento e desenvolvimento. A <a tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="A neuroplasticidade ou plasticidade cerebral se refere à capacidade do sistema nervoso fazer modificações em sua estrutura e função em decorrência dos padrões de experiência (Hasse; Lacerda, 2004).">neuroplasticidade</a> é predominante neste período, o que garante a aquisição de habilidades futuras para um desenvolvimento saudável.
+            Neste contexto, os primeiros mil dias se referem a um período no qual há um maior crescimento e desenvolvimento. A <a role="button" data-bs-toggle="modal" data-bs-target="#neuroplasticidadeModal">neuroplasticidade</a> é predominante neste período, o que garante a aquisição de habilidades futuras para um desenvolvimento saudável.
           </p>
         </div>
         <div class="col-lg">
@@ -86,6 +87,18 @@
           </p>
         </div>
       </div>
+
+      <div id="neuroplasticidadeModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content" style="background-color: transparent; border: none;">
+            <div class="modal-body d-flex justify-content-center align-items-center" style="padding: 0;">
+              <!-- Modal content goes here -->
+              <div class="callout" type="glossary" title="Neuroplasticidade" text="A neuroplasticidade ou plasticidade cerebral se refere à capacidade do sistema nervoso fazer modificações em sua estrutura e função em decorrência dos padrões de experiência (Hasse; Lacerda, 2004)."></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <p>
         Esses estudos têm orientado uma série de instituições para a construção de estratégias que permitam condições de nutrição, estimulação e proteção adequadas, em especial neste período, pois esses são elementos essenciais para que a criança possa atingir o seu pleno potencial de crescimento e desenvolvimento a fim de se tornar um adulto saudável. Portanto, da concepção aos 2 anos, são necessários cuidados que ajudem a prevenir a ocorrência de eventos futuros na vida da criança, tais como: atrasos no desenvolvimento, doenças crônicas não transmissíveis (DCNT), entre outros. Neste sentido, o papel dos profissionais de saúde é de extrema relevância e importância e deve estar associado à participação e inclusão da família e da criança.
       </p>
@@ -104,23 +117,50 @@
 
       <div class="callout" type="info" text="O desenvolvimento cerebral ocorre em uma velocidade incrível durante os mil dias de vida: “as células cerebrais podem fazer até 1.000.000 de novas conexões neuronais a cada segundo – uma velocidade única na vida. Essas conexões formam a base das estruturas que dão sustentação à aprendizagem ao longo da vida” (UNICEF, 2017). Acesse o site e acompanhe mais informações sobre o tema: <a href='https://www.unicef.org/brazil/desenvolvimento-infantil' target='_blank'>clique aqui</a> e confira o texto sobre desenvolvimento infantil publicado no site da Unicef. <br><br> Você pode conferir também o guia “Desenvolvimento neuropsicomotor, sinais de alerta e estimulação precoce: um guia para pais e cuidadores primários”, <a href='http://bvsms.saude.gov.br/bvs/publicacoes/desenvolvimento_neuropsicomotor_estimulacao_guia_pais.pdf' target='_blank'>clicando aqui</a>."></div>
 
-      <h2>Conceito de janela de oportunidade</h2>
+      <h2 id="section-janela-oportunidade">Conceito de janela de oportunidade</h2>
       <p>
-        O termo <strong>janela de oportunidade</strong> se refere ao período contido nos primeiros mil dias no qual é possível a adoção de hábitos, atitudes e estratégias que influenciarão o futuro da criança. Estudos <a tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-html="true" data-bs-content="A epigenética estuda a forma como as nossas experiências de vida, desde a gestação, podem alterar o comportamento dos nossos genes. Eles podem ser acionados ou desligados pelas condições ambientais em que a criança está inserida, mudando a forma como o DNA funciona e se expressa.
-        <br><br>
-        Mídia: <a href='https://www.fmcsv.org.br/pt-BR/biblioteca/que-essa-tal-de-epigenetica/'>Confira mais informações</a>.
-        <br>
-        Leia: <a href='https://harvardcenter.wpenginepowered.com/wp-content/uploads/2020/06/EpigeneticsInfographic_PT.pdf' target='_blank'>Epigenética e infância.</a> 
-        <br>
-        Assista ao vídeo: <a href='https://www.youtube.com/watch?v=P5B3QC-sP5w' target='_blank'>O que é essa tal de epigenética.</a>
-        ">epigenéticos</a> evidenciam a influência e o efeito do ambiente, da alimentação, do estresse, da atividade física, da exposição a elementos como o álcool, o fumo, que trarão impactos nos indicadores de saúde e doença em curto e longo prazo (Rivas; Teixeira; Krepischi, 2019; Filho; Flores; Pedroso, 2020; Bennati Madureira; Mussi Ribeiro; Estadella, 2024). Acompanhe na figura a seguir o desenvolvimento cerebral na primeira infância. Perceba os detalhes da imagem.
+        O termo <strong>janela de oportunidade</strong> se refere ao período contido nos primeiros mil dias no qual é possível a adoção de hábitos, atitudes e estratégias que influenciarão o futuro da criança. Estudos <a role="button" data-bs-toggle="modal" data-bs-target="#epigeneticaModal" data-html="true">epigenéticos</a> evidenciam a influência e o efeito do ambiente, da alimentação, do estresse, da atividade física, da exposição a elementos como o álcool, o fumo, que trarão impactos nos indicadores de saúde e doença em curto e longo prazo (Rivas; Teixeira; Krepischi, 2019; Filho; Flores; Pedroso, 2020; Bennati Madureira; Mussi Ribeiro; Estadella, 2024). Acompanhe na figura a seguir o desenvolvimento cerebral na primeira infância. Perceba os detalhes da imagem.
       </p>
 
-      <figure id="2">
+      <div id="epigeneticaModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content" style="background-color: transparent; border: none;">
+            <div class="modal-body d-flex justify-content-center align-items-center" style="padding: 0;">
+              <!-- Modal content goes here -->
+              <div class="callout" type="glossary" title="Epigenética"
+                text="
+                <p>A epigenética estuda a forma como as nossas experiências de vida, desde a gestação, podem alterar o comportamento dos nossos genes. Eles podem ser acionados ou desligados pelas condições ambientais em que a criança está inserida, mudando a forma como o DNA funciona e se expressa.</p>
+
+                <ul class='icon-list'>
+                  <li>
+                    <img src='sc-common/img/common/icon-external-media.svg' alt='Mídia externa'>
+                    <span>
+                    Confira mais informações <a href='https://www.fmcsv.org.br/pt-BR/biblioteca/que-essa-tal-de-epigenetica/' target='_blank'>clicando aqui</a>.
+                    </span>
+                  </li>
+                  <li>
+                    <img src='sc-common/img/common/icon-external-read.svg' alt='Leitura externa'>
+                    <span>
+                    Epigenética e infância: <a href='https://harvardcenter.wpenginepowered.com/wp-content/uploads/2020/06/EpigeneticsInfographic_PT.pdf' target='_blank'>leia aqui</a>.
+                    </span>
+                  </li>
+                  <li>
+                    <img src='sc-common/img/common/icon-external-video.svg' alt='Vídeo externo'>
+                    <span>
+                    O que é essa tal de epigenética? <a href='https://www.youtube.com/watch?v=P5B3QC-sP5w' target='_blank'>assista ao vídeo aqui</a>.
+                    </span>
+                  </li>
+                </ul>
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <figure id="desenvolvimento-cerebral">
         <figcaption>
-          Figura 2 – Desenvolvimento cerebral na primeira infância.
-        </figcaption>
-        <figcaption>
+          Figura 2 – Desenvolvimento cerebral na primeira infância.<br>
           Fonte: Adaptada de Nelson (2000 apud Brasil, 2023, p. 15).
         </figcaption>
       </figure>
@@ -132,7 +172,9 @@
       <div class="callout" type="reflection" text="Quais as ações que você tem desenvolvido para promover a saúde das crianças nos primeiros mil dias de vida?"></div>
 
 
-      <h2>Conhecimentos necessários sobre a primeira infância</h2>
+      <h2 id="section-primeira-infancia">
+        Conhecimentos necessários sobre a primeira infância
+      </h2>
       <p>
         A construção de estratégias que propiciem a intervenção precoce e oportuna parte do entendimento de que o desenvolvimento integral da criança está intimamente ligado ao crescimento adequado e relacionado com seus sistemas sensorial, perceptivo, psicológico, intelectual, motor, físico e de linguagem, que ocorre principalmente no período mais crítico do seu desenvolvimento cerebral, sendo fortemente influenciado por fatores biológicos e ambientais, que devem ser favoráveis. As experiências vividas pela criança e pela qualidade dos vínculos afetivos que ela estabelece com as pessoas com as quais se relaciona são muito importantes nesse período (Legarda, 2005).
       </p>
@@ -225,7 +267,7 @@
               6. Colabore com outros profissionais
             </button>
           </div>
-          <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+          <div id="ncfAccordion-collapseSix" class="accordion-collapse collapse">
             <div class="accordion-body">
               Interaja com os profissionais que trabalham com a criança e com cuidadores que poderão fornecer observações ou conclusões que contribuam para a identificação de atrasos no desenvolvimento.
             </div>
@@ -248,18 +290,19 @@
           </p>
         </div>
         <div class="col-lg">
-          <div class="video" title="Título de placeholder muito bacana e engajante que é para testar o algoritmo de sepração das palavras" src="https://www.youtube.com/embed/wm-ApSbCMK8"></div>
+          <div class="video"
+            title="Instrumento de avaliação de desenvolvimento integral das crianças contido na Caderneta da Criança"
+            src="https://www.youtube.com/embed/wm-ApSbCMK8">
+          </div>
         </div>
       </div>
 
       <p>
         Na consulta de retorno, refaça a classificação e siga também as orientações do instrumento. Ao concluir a tomada de decisão, o profissional que fizer a avaliação do desenvolvimento integral da criança deve indicar a classificação correspondente nos quadros de desenvolvimento dos registros de consulta na caderneta. Você conhece algum fator de risco para problemas do desenvolvimento? Veja alguns fatores de risco para problemas do desenvolvimento:
       </p>
-      <figure id="3">
+      <figure id="fatores-de-risco">
         <figcaption>
-          Figura 3 - XXXXXXXXXXXX
-        </figcaption>
-        <figcaption>
+          Figura 3 - Fatores de risco para problemas de desenvolvimento<br>
           Fonte: Elaborada pelo autor (2024).
         </figcaption>
       </figure>
@@ -308,15 +351,31 @@
           </p>
         </div>
         <div class="col-lg-6">
-          <figure id="4">
+          <figure id="dpnm">
           </figure>
         </div>
       </div>
 
       <p>
-        Todas essas dimensões estão interligadas, influenciam-se e ocorrem simultaneamente. Portanto, a fim de promover um desenvolvimento saudável é necessário fortalecer o enriquecimento cognitivo e a prevenção de adversidades (Brasil, 2023). É na primeira infância, em especial de 0 a 3 anos, que a <a tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-html="true" data-bs-content="A mielinização é parte do processo de desenvolvimento cerebral. A mielina é a camada lipoproteica que tem a função de envolver e proteger a condução nervosa dos axônios dos neurônios, tornando-a mais rápida e eficaz. Em um neurônio não mielinizado, a transmissão de informação neuronal é mais lenta, impedindo o alcance da parte terminal do axônio. Quando o axônio está mielinizado, a transmissão é rápida e efetiva.">mielinização</a> e a <a tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-html="true" data-bs-content="A sinaptogênese é o processo de formação de sinapses entre os neurônios do sistema nervoso central.">sinaptogênese</a> ocorrem de forma acentuada contribuindo para a neuroplasticidade cerebral. Lembre-se de que cada etapa do desenvolvimento prepara a que se segue e que a estimulação é a palavra-chave nesse processo.
+        Todas essas dimensões estão interligadas, influenciam-se e ocorrem simultaneamente. Portanto, a fim de promover um desenvolvimento saudável é necessário fortalecer o enriquecimento cognitivo e a prevenção de adversidades (Brasil, 2023). É na primeira infância, em especial de 0 a 3 anos, que a <a role="button" data-bs-toggle="modal" data-bs-target="#modalMielinizacao" data-html="true">mielinização e sinaptogênese</a>  ocorrem de forma acentuada contribuindo para a neuroplasticidade cerebral. Lembre-se de que cada etapa do desenvolvimento prepara a que se segue e que a estimulação é a palavra-chave nesse processo.
       </p>
 
+      <div id="modalMielinizacao" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content" style="background-color: transparent; border: none;">
+            <div class="modal-body d-flex justify-content-center align-items-center" style="padding: 0;">
+              <!-- Modal content goes here -->
+              <div class="callout" type="glossary" title="Mielinização e Sinaptogênese"
+                text="
+                <p>A <strong>mielinização</strong> é parte do processo de desenvolvimento cerebral. A mielina é a camada lipoproteica que tem a função de envolver e proteger a condução nervosa dos axônios dos neurônios, tornando-a mais rápida e eficaz. Em um neurônio não mielinizado, a transmissão de informação neuronal é mais lenta, impedindo o alcance da parte terminal do axônio. Quando o axônio está mielinizado, a transmissão é rápida e efetiva.</p>
+
+                <p>A <strong>sinaptogênese</strong> é o processo de formação de sinapses entre os neurônios do sistema nervoso central.</p>
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="callout" type="reflection" text="Embora as dimensões físicas e genéticas sejam elementos essenciais, sem a estimulação externa e um ambiente favorável e facilitador algumas das dimensões podem evidenciar atrasos ou comprometimentos importantes. Diante disso, faça a seguinte reflexão: o que você tem percebido ou identificado sobre o desenvolvimento das crianças com as quais interage e atende?"></div>
 
@@ -369,7 +428,7 @@
         Para que ocorra de forma plena, os pais, os cuidadores e os que a cercam servem como mediadores entre a criança e o mundo (Papalia; Olds, 2000; Brasil, 2023). Quando um bebê ou uma criança apresenta certos sinais que sugerem dificuldades na comunicação oral, é preciso iniciar imediatamente a estimulação adequada. Por exemplo, se houver dificuldade na emissão de sons (sistema fonológico), é necessário observar se essas trocas estão dentro do que é esperado para a idade ou não, conforme o você pode conferir a seguir na imagem.
       </p>
 
-      <figure id="5">
+      <figure id="classificacao-fonologica">
         <figcaption>
           Fonte: Adaptado de Wertzner (2004 apud Brasil, 2023, p. 23).
         </figcaption>
@@ -423,7 +482,9 @@
 
       <div class="callout" type="reflection" text="Você utiliza e orienta o brincar como ferramenta para estimular o desenvolvimento?"></div>
 
-      <h2>O Modelo do Cuidado Integral (Nurturing Care Framework) e as necessidades básicas da criança</h2>
+      <h2 id="section-nurturing-care-framework">
+        As necessidades básicas da criança e o Modelo do Cuidado Integral (<em>Nurturing Care Framework</em>)
+      </h2>
       <div class="row">
         <div class="col-lg">
           <p>
@@ -437,39 +498,152 @@
         </div>
       </div>
       <p>
-        Além disso, reconhece a função de vários setores para proteger, promover e apoiar o desenvolvimento durante toda a vida. O plano concentra-se nos primeiros anos de vida e expressa a importância crucial dos mil primeiros dias, desde a concepção até o final do segundo ano de vida, quando o cérebro se desenvolve em uma velocidade surpreendente e é mais sensível a danos, bem como a intervenções, para mitigar os riscos e otimizar o desenvolvimento. Descreve “políticas e serviços, além das funções de diversos setores, sobretudo do setor da saúde, que tem alcance incomparável e função especialmente importante no apoio aos cuidadores para criar os alicerces dos <a tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="
-        <p>
-          Os “cuidados de criação” referem-se a um ambiente estável, criado por pais e outros cuidadores, que assegura a boa saúde e nutrição das crianças, protegendo-as de ameaças, e oferece oportunidades de aprendizagem precoce, por meio de interações responsivas e de apoio emocional (WHO, 2018, p. 3). Entende-se por domínios dos cuidados de criação os cinco componentes inter-relacionados aos cuidados de criação:
-        </p>
-        <ul>
-          <li>boa saúde,</li>
-          <li>nutrição adequada,</li>
-          <li>proteção e segurança,</li>
-          <li>aprendizagem desde o início da vida precoce, e</li>
-          <li>cuidados responsivos.</li>
-        </ul>
-        <p>
-          As crianças necessitam dos cinco domínios para aproveitar todo o seu potencial de desenvolvimento.
-        </p>
-        ">cuidados de criação</a>” (WHO, 2018, p. 4).
+        Além disso, reconhece a função de vários setores para proteger, promover e apoiar o desenvolvimento durante toda a vida. O plano concentra-se nos primeiros anos de vida e expressa a importância crucial dos mil primeiros dias, desde a concepção até o final do segundo ano de vida, quando o cérebro se desenvolve em uma velocidade surpreendente e é mais sensível a danos, bem como a intervenções, para mitigar os riscos e otimizar o desenvolvimento. Descreve “políticas e serviços, além das funções de diversos setores, sobretudo do setor da saúde, que tem alcance incomparável e função especialmente importante no apoio aos cuidadores para criar os alicerces dos <a role="button" data-bs-toggle="modal" data-bs-target="#cuidadosCriacaoModal">cuidados de criação</a> (WHO, 2018, p. 4).
       </p>
+      <div id="cuidadosCriacaoModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content" style="background-color: transparent; border: none;">
+            <div class="modal-body d-flex justify-content-center align-items-center" style="padding: 0;">
+              <!-- Modal content goes here -->
+              <div class="callout" type="glossary" title="Cuidados de criação"
+                text="
+                <p>
+                  Os “cuidados de criação” referem-se a um ambiente estável, criado por pais e outros cuidadores, que assegura a boa saúde e nutrição das crianças, protegendo-as de ameaças, e oferece oportunidades de aprendizagem precoce, por meio de interações responsivas e de apoio emocional (WHO, 2018, p. 3). Entende-se por domínios dos cuidados de criação os cinco componentes inter-relacionados aos cuidados de criação:
+                </p>
+                <ul>
+                  <li>boa saúde,</li>
+                  <li>nutrição adequada,</li>
+                  <li>proteção e segurança,</li>
+                  <li>aprendizagem desde o início da vida precoce, e</li>
+                  <li>cuidados responsivos.</li>
+                </ul>
+                <p>
+                  As crianças necessitam dos cinco domínios para aproveitar todo o seu potencial de desenvolvimento.
+                </p>
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <h3>Os cinco componentes do Modelo de Cuidado Integral (Nurturing Care Framework)</h3>
       <p>
         Agora vamos aprofundar conhecimentos sobre os elementos essenciais dos cuidados de criação.
       </p>
 
-      <figure id="cuidado-criacao">
-        <div>
-          <p>Para complementar seus conhecimentos, <a href="https://portaldeboaspraticas.iff.fiocruz.br/wp-content/uploads/2019/07/nurturing-care-framework-first-consultation-pt.pdf" target="_blank">clique aqui</a> para ler “Cuidados de criação para o desenvolvimento na primeira infância - Plano global para ação e resultados”.</p>
+      <div class="accordion" id="nurturingCareFrameworkAccordion">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ncfAccordion-collapseOne" aria-expanded="true" aria-controls="ncfAccordion-collapseOne">
+              <img src="img/un1/accordion-nurturing-care-framework/item-1.svg">
+            </button>
+          </div>
+          <div id="ncfAccordion-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <ul>
+                <li>Planejamento familiar.</li>
+                <li>Prevenção e abandono do tabagismo e do uso de álcool e substâncias.</li>
+                <li>Atenção pré-natal. </li>
+                <li>Atenção ao parto.</li>
+                <li>Prevenção da transmissão materno-infantil do HIV.</li>
+                <li>Atenção essencial ao recém-nascido com atenção extra a bebês pequenos e doentes.</li>
+                <li>Contato de atenção pós-natal.</li>
+                <li>Método mãe-canguru para bebês com baixo peso ao nascer.</li>
+                <li>Imunização materna. </li>
+                <li>Imunização infantil.</li>
+                <li>Atenção às crianças com dificuldades e deficiências do desenvolvimento.</li>
+                <li>Apoio à saúde mental dos pais.</li>
+                <li>Detecção precoce de doenças ou condições incapacitantes (por exemplo, visão, audição).</li>
+                <li>Busca de atenção para crianças doentes.</li>
+                <li>Atenção integrada às doenças prevalentes da infância.</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <figcaption>
-          Figura 6 – Elementos essenciais dos cuidados de criação.
-        </figcaption>
-        <figcaption>
-          Fonte: Adaptado de Fiocruz (2019, p. 11).
-        </figcaption>
-      </figure>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ncfAccordion-collapseTwo" aria-expanded="false" aria-controls="ncfAccordion-collapseTwo">
+              <img src="img/un1/accordion-nurturing-care-framework/item-2.svg">
+            </button>
+          </div>
+          <div id="ncfAccordion-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <ul>
+                <li>Nutrição materna.</li>
+                <li>Início de amamentação exclusiva na primeira hora de vida.</li>
+                <li>Alimentação complementar e transição para a dieta saudável da família. Micronutrientes de acordo com as necessidades.</li>
+                <li>Eliminação de parasitos.</li>
+                <li>Monitoramento do crescimento, e intervenção quando indicado.</li>
+                <li>Tratamento de todas as formas de desnutrição.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ncfAccordion-collapseThree" aria-expanded="false" aria-controls="ncfAccordion-collapseThree">
+              <img src="img/un1/accordion-nurturing-care-framework/item-3.svg">
+            </button>
+          </div>
+          <div id="ncfAccordion-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <ul>
+                <li>Água potável.</li>
+                <li>Saneamento.</li>
+                <li>Prevenção de maus-tratos e negligência.</li>
+                <li>Prevenção e redução da poluição em ambientes internos e externos.</li>
+                <li>Ambientes saudáveis, verdes, sem toxinas.</li>
+                <li>Prevenção de violência familiar e por parceiro íntimo.</li>
+                <li>Prevenção da aplicação de castigos físicos e humilhantes a crianças.</li>
+                <li>Espaços de lazer seguros em áreas urbanas e rurais.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ncfAccordion-collapseFour" aria-expanded="false" aria-controls="ncfAccordion-collapseFour">
+              <img src="img/un1/accordion-nurturing-care-framework/item-4.svg">
+            </button>
+          </div>
+          <div id="ncfAccordion-collapseFour" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <ul>
+                <li>Contato de pele com pele imediatamente após o nascimento.</li>
+                <li>Cuidados afetuosos e seguros de adultos em ambiente familiar.</li>
+                <li>Orientação das crianças nas atividades cotidianas e nas relações com outras pessoas.</li>
+                <li>Rotinas diárias de alimentação e sono.</li>
+                <li>Participação do pai, da família ampliada e de outros parceiros.</li>
+                <li>Apoio social por famílias, grupos comunitários e comunidades religiosas.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ncfAccordion-collapseFive" aria-expanded="false" aria-controls="ncfAccordion-collapseFive">
+              <img src="img/un1/accordion-nurturing-care-framework/item-5.svg">
+            </button>
+          </div>
+          <div id="ncfAccordion-collapseFive" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <ul>
+                <li>Resposta à comunicação da criança por meio de sons, expressões faciais e gestos. </li>
+                <li>Estimulação da linguagem ao falar com a criança e cantar para ela.</li>
+                <li>Incentivo para explorar objetos com orientação dos cuidadores.</li>
+                <li>Grupos de brincadeiras de cuidadores com crianças e de leitura e contação de histórias.</li>
+                <li>Brinquedotecas e bibliotecas móveis. </li>
+                <li>Creche e educação infantil de qualidade.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="cuidado-criacao">
+        <p>Para complementar seus conhecimentos, leia o material <a href="https://portaldeboaspraticas.iff.fiocruz.br/wp-content/uploads/2019/07/nurturing-care-framework-first-consultation-pt.pdf" target="_blank">Cuidados de criação para o desenvolvimento na primeira infância - Plano global para ação e resultados</a>.</p>
+      </div>
 
       <div class="row">
         <div class="col-lg">
@@ -489,7 +663,9 @@
 
       <div class="callout" type="reflection" text="Quais ações você e sua equipe têm desenvolvido e que contemplam alguns dos cinco componentes do Modelo de Cuidado Integral?"></div>
 
-      <h2>A Intervenção Precoce (IP) e a janela de oportunidades para o desenvolvimento neuropsicomotor</h2>
+      <h2 id="section-intervencao-precoce">
+        A Intervenção Precoce (IP) e a janela de oportunidades para o desenvolvimento neuropsicomotor
+      </h2>
       <div class="row">
         <div class="col-lg">
           <p>
@@ -507,7 +683,7 @@
         A IP está embasada teoricamente sobre as neurociências, a investigação sobre desenvolvimento das crianças e as perspectivas contextuais e ecológicas do desenvolvimento e em uma atuação multidisciplinar (Franco, 2007). Considerações importantes sobre a IP (Franco, 2007, p. 116):
       </p>
 
-      <figure id="7">
+      <figure id="intervencao-precoce">
       </figure>
 
       <p>Outras dicas importantes:</p>

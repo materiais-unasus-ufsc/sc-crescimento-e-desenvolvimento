@@ -2,15 +2,8 @@
 
 @import "../sc-common/common.scss";
 
+/* --- BOOTSTRAP CUSTOMIZATION --- */
 
-/* #region Bootstrap overrides */
-
-// Popovers
-.popover-body {
-  background-color: $primary-orange-lightest;
-}
-
-// Accordions
 .accordion-item {
   margin: 1rem 0;
   border: none;
@@ -22,21 +15,48 @@
   }
 }
 .accordion-button {
+  color: $color-neutral-black;
   border-radius: 1rem !important;
-  background-color: $primary-blue;
+  background-color: $color-blue-bell-400;
   font-weight: bolder;
 
   &:not(.collapsed) {
-    background-color: $primary-blue-light;
+    color: inherit;
+    background-color: $color-blue-bell-500;
+  }
+
+  &:focus {
+    box-shadow: none;
   }
 }
 .accordion-body {
   margin-top: 0.5rem;
   border-radius: 1rem;
-  background-color: $primary-blue-ligher;
+  background-color: $color-blue-bell-200;
 }
 
-/* #endregion Bootstrap overrides */
+#nurturingCareFrameworkAccordion {
+  .accordion-item {
+    margin: 0;
+
+    &:nth-child(even) {
+      .accordion-button {
+        background-color: $color-shadow-green-400;
+      }
+    }
+  }
+
+  .accordion-button {
+    background-color: $color-shadow-green-500;
+  }
+
+  .accordion-body {
+    margin-top: 0;
+    background-color: $color-shadow-green-100;
+  }
+}
+
+/* --- FIGURES --- */
 
 figure.figure-title {
   height: 200px;
@@ -49,15 +69,49 @@ figure.figure-title {
   }
 }
 
-figure#cuidado-criacao {
-  >div {
-    margin-top: 0.5rem;
-    border-radius: 10px;
-    background-color: $primary-blue-ligher;
+#cuidado-criacao {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: $color-shadow-green-100;
 
-    >p {
-      text-align: left;
-      margin: 0.5rem 1rem;
+  > p {
+    margin: 0;
+  }
+}
+
+/* --- UNS --- */
+
+main#un1 {
+  .callout {
+    &[type="warning"] {
+      background-color: $color-shadow-green-200;
     }
   }
+}
+
+main#un2 {
+  .callout {
+    &[type="warning"] {
+      background-color: $color-light-orchid-200;
+    }
+  }
+}
+
+main#un3 {
+  .callout {
+    &[type="warning"] {
+      background-color: $color-tonys-pink-200;
+    }
+  }
+}
+
+main#un4 {
+  .callout {
+    &[type="warning"] {
+      background-color: $color-new-orleans-200;
+    }
+  }
+}
+
+.hero {
 }
