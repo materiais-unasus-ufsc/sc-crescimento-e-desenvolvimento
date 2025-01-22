@@ -1,6 +1,6 @@
 /* Estilos específicos para este módulo do curso Saúde da Criança. */
 
-@import "../sc-common/common.scss";
+@import "sc-common/common.scss";
 
 /* --- BOOTSTRAP CUSTOMIZATION --- */
 
@@ -59,7 +59,7 @@
 /* --- FIGURES --- */
 
 figure.figure-title {
-  height: 200px;
+  height: 250px;
   svg {
     position: absolute;
   }
@@ -80,8 +80,15 @@ figure.figure-title {
 }
 
 /* --- UNS --- */
+#un1 {
+  @include list-style($list-bullet-nav-1, $list-bullet-content-1);
 
-main#un1 {
+  .hero {
+    .title {
+      background-color: $color-shadow-green-200;
+    }
+  }
+
   .callout {
     &[type="warning"] {
       background-color: $color-shadow-green-200;
@@ -89,15 +96,67 @@ main#un1 {
   }
 }
 
-main#un2 {
+#un2 {
+  @include list-style($list-bullet-nav-2, $list-bullet-content-2);
+
+  .hero {
+    .title {
+      background-color: $color-light-orchid-200;
+    }
+  }
+
   .callout {
     &[type="warning"] {
       background-color: $color-light-orchid-200;
     }
   }
+
+  #dmTabs {
+    border-color: $color-light-orchid-500;
+
+    > li {
+      > button {
+        background-color: $color-light-orchid-100;
+
+        &.active {
+          border-top-color: $color-light-orchid-500;
+          border-left-color: $color-light-orchid-500;
+          border-right-color: $color-light-orchid-500;
+          background-color: $color-light-orchid-200;
+        }
+      }
+    }
+  }
+
+  #triagem-auditiva-neonatal {
+    margin: 3rem auto 4rem auto;
+    max-width: 946px;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: $color-light-orchid-100;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    position: relative;
+
+    p:first-of-type {
+      font-weight: 700;
+    }
+
+    img {
+      position: absolute;
+      top: -60px;
+      left: -100px;
+    }
+  }
 }
 
-main#un3 {
+#un3 {
+  .hero {
+    .title {
+      /* background-color: ; */
+    }
+  }
+
   .callout {
     &[type="warning"] {
       background-color: $color-tonys-pink-200;
@@ -105,13 +164,16 @@ main#un3 {
   }
 }
 
-main#un4 {
+#un4 {
+  .hero {
+    .title {
+      /* background-color: ; */
+    }
+  }
+
   .callout {
     &[type="warning"] {
       background-color: $color-new-orleans-200;
     }
   }
-}
-
-.hero {
 }

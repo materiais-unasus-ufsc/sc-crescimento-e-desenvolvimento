@@ -13,34 +13,34 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
-  <header class="component" name="header" un-tag="Un2"></header>
+<body id="un2">
+  <header class="component" name="header"></header>
 
-  <div class="hero d-flex align-items-end">
-    <div class="container">
-      <img src="img/un2/title.svg" alt="Hero">
-    </div>
+  <div
+    class="component hero"
+    name="hero"
+    data-title="Conversando sobre o desenvolvimento neuropsicomotor típico e a intervenção precoce">
   </div>
 
-  <main id="un2">
+  <main>
     <section class="container">
       <h2>Conteúdo</h2>
-      <nav>
+      <nav class="nav-index">
         <ul>
           <li>
-            Marcos do desenvolvimento do nascimento aos 6 meses
+            <a href="#fig-title-1">Marcos do desenvolvimento do nascimento aos 6 meses</a>
           </li>
           <li>
-            Marcos do desenvolvimento do nascimento aos 6 meses a 1 ano
+            <a href="#fig-title-2">Marcos do desenvolvimento do nascimento aos 6 meses a 1 ano</a>
           </li>
           <li>
-            Marcos do desenvolvimento de 1 a 2 anos
+            <a href="#fig-title-3">Marcos do desenvolvimento de 1 a 2 anos</a>
           </li>
           <li>
-            A intervenção precoce e a janela de oportunidades para o desenvolvimento neuropsicomotor
+            <a href="#fig-title-4">A intervenção precoce e a janela de oportunidades para o desenvolvimento neuropsicomotor</a>
           </li>
           <li>
-            Marcos do desenvolvimento de 6 a 9 anos
+            <a href="#fig-title-5">Marcos do desenvolvimento de 6 a 9 anos</a>
           </li>
         </ul>
       </nav>
@@ -70,7 +70,7 @@
         </script>
         <figcaption>Fonte: adaptado de Hockenberry e Wilson (2018).</figcaption>
       </figure>
-      <div id="figure-2-modal" class="modal" tabindex="-1">
+      <div id="figure-2-modal" class="modal fade" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered modal-xl">
           <div class="modal-content" style="background-color: transparent; border: none;">
             <div class="modal-body d-flex justify-content-center align-items-center" style="padding: 0;">
@@ -84,18 +84,8 @@
 
       <!-- Mídias – vídeo
       Vamos relembrar como se faz a avaliação dos reflexos primitivos! Assista ao vídeo: “Reflexos primitivos: avaliação e integração”, disponível em: -->
-      <div class="row">
-        <div class="col-lg">
-          <p>
-            Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Sapien in monti palavris qui num significa nadis i pareci latim.
-          </p>
-          <p>
-            Per aumento de cachacis, eu reclamis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Diuretics paradis num copo é motivis de denguis. In elementis mé pra quem é amistosis quis leo. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!
-          </p>
-        </div>
-        <div class="col-lg">
-          <div class="video" title="Reflexos primitivos: avaliação e integração" src="https://www.youtube.com/embed/wm-ApSbCMK8"></div>
-        </div>
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="video" title="Reflexos primitivos: avaliação e integração" src="https://www.youtube.com/embed/wm-ApSbCMK8" style="max-width: 560px;"></div>
       </div>
 
       <p>E agora, para dar continuidade, antes de irmos para o próximo tópico, gostaríamos que você refletisse por alguns minutos sobre o questionamento a seguir. Confira e avalie o tema.</p>
@@ -113,29 +103,35 @@
         </div>
       </div>
 
-      <figure id="3">
-        <!-- <figcaption>
-          Figura 2 – Primeiro trimestre (0 a 3 meses).
-        </figcaption>
-        <figcaption>
-          Fonte: Brasil (2023).
-        </figcaption> -->
-      </figure>
+      <!-- TABS: DESENVOLVIMENTO MOTOR -->
+      <ul class="custom-round-tabs nav nav-tabs" id="dmTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="dm-first-tab" data-bs-toggle="tab" data-bs-target="#dm-first-tab-pane" type="button" role="tab" aria-controls="dm-first-tab-pane" aria-selected="true">Primeiro Trimestre (0 a 3 meses)</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="dm-second-tab" data-bs-toggle="tab" data-bs-target="#dm-second-tab-pane" type="button" role="tab" aria-controls="dm-second-tab-pane" aria-selected="false">Segundo Trimestre (4 a 6 meses)</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="dmTabsContent">
+        <div class="tab-pane fade show active" id="dm-first-tab-pane" role="tabpanel" aria-labelledby="dm-first-tab" tabindex="0">
+          <figure id="tabs-dm/tab-1"></figure>
+        </div>
+        <div class="tab-pane fade" id="dm-second-tab-pane" role="tabpanel" aria-labelledby="dm-second-tab" tabindex="0">
+          <figure id="tabs-dm/tab-2"></figure>
+        </div>
+      </div>
 
       <h3> Desenvolvimento cognitivo sensorial</h3>
       <p>Os sistemas sensoriais da visão, audição, gustação, olfato e tato serão abordados conjuntamente.</p>
 
-      <figure>
-        <img src="img/un2/placeholder-3.png" alt="">
+      <figure id="cognitivo-sensorial">
         <figcaption>
-          Figura 3 – Os sistemas sensoriais.
-        </figcaption>
-        <figcaption>
+          Figura 3 – Os sistemas sensoriais.<br>
           Fonte: Brasil (2023).
         </figcaption>
       </figure>
 
-      <p>Algumas considerações:</p>
+      <p><strong>Algumas considerações:</strong></p>
       <ul>
         <li>Durante a preparação para compreender e utilizar a linguagem, os bebês primeiro se familiarizam com os sons das palavras e locuções (de seu idioma) e, posteriormente, atribuem significados a elas (Jusczyk; Hohne, 1997; Brasil, 2023). À medida que a função auditiva vai se desenvolvendo e as experiências auditivas vão acontecendo, as habilidades auditivas vão surgindo e se interligando no dia a dia (Bevilacqua; Formigoni, 2005; Brasil, 2023). Para o adequado desenvolvimento dessas habilidades auditivas, são imprescindíveis a integridade e o funcionamento corretos das estruturas do sistema auditivo.</li>
         <li>Os bebês são capazes de sentir diferentes sabores antes mesmo de nascerem, o que traz consequências para o seu desenvolvimento. O paladar proporciona experiências sensoriais que podem influenciá-lo emocionalmente, incluindo a preferência por determinados alimentos e ajudar a identificar a mãe, tendo em vista que muitos dos sabores presentes no líquido amniótico também estão no leite materno (Medeiros et al., 2013; Brasil, 2023). O bebê diferencia os quatro sabores básicos – ácido, salgado, doce e amargo –, apresentando reflexos gustativos faciais (Legarda, 2009).</li>
@@ -143,22 +139,15 @@
         <li>O tato começa a ser desenvolvido entre a 5ª ou 6ª semana da gestação, quando o feto sente o contato do líquido amniótico nos lábios e no nariz.</li>
       </ul>
 
-      <div class="row">
-        <div class="col-lg">
-          <p>Você sabia que em 2010 foi regulamentada a Triagem Auditiva Neonatal (Lei nº 12.303)? Ela versa sobre a obrigatoriedade da realização do “teste da orelhinha” (Emissões Otoacústicas Evocadas) pelas maternidades e por hospitais públicos do país, de forma gratuita, nos bebês nascidos em suas dependências.</p>
-        </div>
-        <div class="col-lg">
-          <p>Assim, é direito do bebê ser submetido ainda na maternidade ou no hospital a esse exame simples e rápido de triagem, que possibilita detectar precocemente possíveis riscos de alteração auditiva ao nascer, para que se possa em tempo oportuno intervir (Brasil, 2023).</p>
-        </div>
+      <div id="triagem-auditiva-neonatal">
+        <img src="img/un2/icon-triagem-auditiva.png">
+        <p>Você sabia que em 2010 foi regulamentada a Triagem Auditiva Neonatal (Lei nº 12.303)?</p>
+        <p>Ela versa sobre a obrigatoriedade da realização do “teste da orelhinha” (Emissões Otoacústicas Evocadas) pelas maternidades e por hospitais públicos do país, de forma gratuita, nos bebês nascidos em suas dependências. Assim, é direito do bebê ser submetido ainda na maternidade ou no hospital a esse exame simples e rápido de triagem, que possibilita detectar precocemente possíveis riscos de alteração auditiva ao nascer, para que se possa em tempo oportuno intervir (Brasil, 2023).</p>
       </div>
 
-      <figure id="4">
-        <img src="img/un2/placeholder-4.png" alt="">
-        <img src="img/un2/placeholder-4-2.png" alt="">
+      <figure id="marcos-auditivos">
         <figcaption>
-          Figura 4 – Marcos auditivos do desenvolvimento típico.
-        </figcaption>
-        <figcaption>
+          Figura 4 – Marcos auditivos do desenvolvimento típico.<br>
           Fonte: Brasil (2023, p. 19).
         </figcaption>
       </figure>
@@ -188,28 +177,338 @@
       <h3>Dicas de atividades do nascimento aos 6 meses</h3>
       <p>Confira a seguir dicas de atividades de 0 a 6 meses.</p>
 
-      <figure id="5">
-        <img src="img/un2/placeholder-5.png" alt="">
-        <figcaption>
-          Figura 2 – Marcos auditivos do desenvolvimento típico.
-        </figcaption>
-        <figcaption>
-          Fonte: Brasil.
-        </figcaption>
-      </figure>
+      <!-- TABS: DICAS DE ATIVIDADES DE 0 A 6 MESES (da0a6) -->
+      <ul class="custom-round-tabs nav nav-tabs" id="da0a6Tabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#da0a6-first-tab-pane" type="button" role="tab" aria-controls="da0a6-first-tab-pane" aria-selected="true">Primeiro Trimestre (0 a 3 meses)</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#da0a6-second-tab-pane" type="button" role="tab" aria-controls="da0a6-second-tab-pane" aria-selected="false">Segundo Trimestre (4 a 6 meses)</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="da0a6TabsContent">
+        <div class="tab-pane fade show active" id="da0a6-first-tab-pane" role="tabpanel" aria-labelledby="da0a6-first-tab" tabindex="0">
+          <!-- CONTENT START -->
+          <div class="accordion" id="da0a6FirstTabContent">
+            <!-- 1 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-first1" aria-expanded="true" aria-controls="da0a6-first1">
+                  Estimulação visual, auditiva; aquisição de habilidades manuais e linha média.
+                </button>
+              </div>
+              <div id="da0a6-first1" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  Posicione o bebê de barriga para cima e, com o auxílio de um brinquedo sonoro suave e colorido, chame a atenção para que o bebê consiga tocá-lo, enquanto se mantém olhando para o brinquedo. Movimente o objeto de um lado para o outro, aproxime o objeto até as mãos do bebê e o auxilie para que consiga tocar no objeto e senti-lo. Essas atividades serão pré-requisito para as habilidades sensório-motoras futuras.
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-firstTwo" aria-expanded="false" aria-controls="da0a6-firstTwo">
+                  Estimular o controle cervical, o rolar, a audição, a visão e as habilidades manuais.
+                </button>
+              </div>
+              <div id="da0a6-firstTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Colocar o bebê em decúbito lateral; os braços ficam livres para manuseio de brinquedos. Se usar a calça de posicionamento ou as pernas do adulto, a cabeça da criança deverá ser posicionada no meio das duas pernas. Crianças com um dos braços comprometidos (hemiplégicas / um dos braços com musculatura mais durinha) podem ser favorecidas nesta postura, ao serem colocadas de lado, com o braço comprometido por cima e o adulto estimulando esse braço. Se a criança for muito espástica (musculatura durinha), a perna de baixo pode ficar esticada e a de cima dobrada em cima da perna da calça.
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-first3" aria-expanded="false" aria-controls="da0a6-first3">
+                  Estimular a coordenação visomotora, a audição; ajudar o bebê a levar o brinquedo/objeto até a boca e facilitar o rolar para o próximo trimestre.
+                </button>
+              </div>
+              <div id="da0a6-first3" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Coloque o bebê de lado e vá levando o brinquedo ora para o lado direito, ora para o lado esquerdo.
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-first4" aria-expanded="false" aria-controls="da0a6-first4">
+                  Estimular a interação social, o vínculo afetivo e o contato visual.
+                </button>
+              </div>
+              <div id="da0a6-first4" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  De frente para o bebê, chame sua atenção para que olhe para seu rosto (especialmente os movimentos de sua boca), fazendo com que a cabeça do bebê se mantenha reta. Converse com o bebê, sorria, cante músicas, conte histórias para que o bebê continue olhando reto para você. Mude o tom de voz para estimulá-lo e deixá-lo mais esperto/alerta.
+                </div>
+              </div>
+            </div>
+            <!-- 5 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-first5" aria-expanded="false" aria-controls="da0a6-first5">
+                  Estimulação visual, auditiva e de habilidades manuais.
+                </button>
+              </div>
+              <div id="da0a6-first5" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Use sempre brinquedos coloridos e que façam barulho. Troque os brinquedos para manter a atenção da criança.
+                </div>
+              </div>
+            </div>
+            <!-- 5.5 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-first55" aria-expanded="false" aria-controls="da0a6-first55">
+                  Estimulação tátil.
+                </button>
+              </div>
+              <div id="da0a6-first55" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Faça estimulação tátil com bolinha, escova e diferentes texturas. Sempre no sentido de baixo para cima.
+                </div>
+              </div>
+            </div>
+            <!-- 6 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-first6" aria-expanded="false" aria-controls="da0a6-first6">
+                  Controle cervical. Promove o desenvolvimento oculomotor. O alcance, a orientação espacial.
+                </button>
+              </div>
+              <div id="da0a6-first6" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Colocar o bebê de barriga para baixo/prono/decúbito ventral, em uma almofadinha com brinquedinhos à frente. Ajuda a transferir peso para o quadril e a criança consegue permanecer mais tempo. Deite o bebê de barriga para baixo sobre as suas pernas ou nessa calça de posicionamento. A posição da cabeça deve ficar na parte mais alta da perna e a dos braços deve ficar para fora das pernas ou calça. Se precisar, faça um rolinho com toalha, cueiro ou o que você tiver para facilitar a transferência de peso da cabeça e ombros para o quadril e, assim, permitindo que o bebê consiga, com mais facilidade e conforto, elevar a cabeça. Durante a brincadeira, fale com o bebê; ele já é capaz de reconhecer a voz de seu cuidador e emitir sons nasais.
+                </div>
+              </div>
+            </div>
+            <!-- 7 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-first7" aria-expanded="false" aria-controls="da0a6-first7">
+                  Estimular linha média, visão e interação social.
+                </button>
+              </div>
+              <div id="da0a6-first7" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Ajude o bebê a levar as mãos até o brinquedo e, em seguida, levar o brinquedo até a boca. Mostre um brinquedo/objeto por vez, de preferência coloridos, para que ele fixe o olhar. Ajude o bebê a tocar o brinquedo, fazendo com que suas mãos cheguem até ele e depois encoste uma mão na outra.
+                </div>
+              </div>
+            </div>
+            <!-- 8 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-first8" aria-expanded="false" aria-controls="da0a6-first8">
+                  Utilizar massagens para aumentar o vínculo entre o cuidador e o bebê. Faz com que o bebê se sinta amado, alivia as cólicas, proporciona consciência corporal, transmite segurança e estimulação tátil, além de ajudá-lo a relaxar e dormir melhor.
+                </button>
+              </div>
+              <div id="da0a6-first8" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Utilizando óleo ou creme infantil, passe, de maneira suave, no corpo do bebê, começando dos pés.
+                </div>
+              </div>
+            </div>
+            <!-- 9 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-first9" aria-expanded="false" aria-controls="da0a6-first9">
+                  Estimular o controle cervical e de tronco, as habilidades manuais, a visão e a audição.
+                </button>
+              </div>
+              <div id="da0a6-first9" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Quando o bebê ainda não tem controle de tronco, sentá-lo dentro de uma boia, com travesseiro/almofada nas costas, para ele se sentir seguro.
+                </div>
+              </div>
+            </div>
+            <!-- 10 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-first10" aria-expanded="false" aria-controls="da0a6-first10">
+                  Estimular habilidades manuais, visão, audição e fortalecimento de tronco para a transição do sentar.
+                </button>
+              </div>
+              <div id="da0a6-first10" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Posicione o bebê em decúbito lateral no triângulo ou use suas pernas para apoiá-lo. Na frente da criança, coloque brinquedos para que ela possa explorar.
+                </div>
+              </div>
+            </div>
+            <!-- 11 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-first11" aria-expanded="false" aria-controls="da0a6-first11">
+                  Estimular contato visual, imitação, interação social e comunicação gestual.
+                </button>
+              </div>
+              <div id="da0a6-first11" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Incentive a imitação gestual (estimulação dos neurônios espelhos, responsáveis pela nossa capacidade de imitar). Atividade para o final do trimestre.
+                </div>
+              </div>
+            </div>
+            <!-- 12 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-collapseTwelve" aria-expanded="false" aria-controls="da0a6-collapseTwelve">
+                  6. Colabore com outros profissionais
+                </button>
+              </div>
+              <div id="da0a6-collapseTwelve" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Interaja com os profissionais que trabalham com a criança e com cuidadores que poderão fornecer observações ou conclusões que contribuam para a identificação de atrasos no desenvolvimento.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CONTENT END -->
+        </div>
+        <div class="tab-pane fade" id="da0a6-second-tab-pane" role="tabpanel" aria-labelledby="da0a6-second-tab" tabindex="0">
+          <!-- CONTENT START -->
+          <div class="accordion" id="da0a6SecondTabContent">
+            <!-- 1 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-second1" aria-expanded="true" aria-controls="da0a6-second1">
+                  Estimular o controle cervical, o contato visual e a atenção auditiva. Ajuda a fortalecer os músculos do pescoço e do abdômen do bebê.
+                </button>
+              </div>
+              <div id="da0a6-second1" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  Com o bebê deitado de barriga para cima, segure suas mãos e puxe-o até ficar sentado. Depois de ficar aproximadamente 6 segundos sentado, voltar a deitar e repetir. Lembre-se sempre de cantar com boa entonação e mantendo contato visual com o bebê.
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-second2" aria-expanded="false" aria-controls="da0a6-second2">
+                  Estimular o alcance, as habilidades manuais e visuais e a atenção auditiva. Essa posição favorece o controle de cabeça/pescoço e apoio nos antebraços.
+                </button>
+              </div>
+              <div id="da0a6-second2" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Com o bebê posicionado de barriga para baixo, estimule-o com algum objeto/brinquedo para que ele levante a cabeça e desenvolva a coordenação visual. Durante a atividade, fale com o bebê, nomeie os brinquedos. Se for muito difícil para o bebê, faça um rolinho de toalha, cueiro ou lençol que você tiver em casa e coloque-o debaixo do peito do bebê.
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-second3" aria-expanded="false" aria-controls="da0a6-second3">
+                  Estimular o rolar para alcançar os brinquedos, estimulação visual e auditiva.
+                </button>
+              </div>
+              <div id="da0a6-second3" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Posicione o bebê de bruços ou de barriga para cima e coloque brinquedos fora do alcance. Movimente os objetos (brinquedos) de um lado para o outro para que o bebê, inicialmente, tente acompanhar o objeto e depois tente pegá-lo, se deslocando lateralmente. Coloque o bebê de barriga para cima e coloque um brinquedo ao lado dele, depois, com um cueiro ou trocador, facilite o rolar. Sempre para os dois lados.
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-second4" aria-expanded="false" aria-controls="da0a6-second4">
+                  Estimular a postura mais alta e favorecer o controle de tronco.
+                </button>
+              </div>
+              <div id="da0a6-second4" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Utilize objetos/acessórios ou qualquer outra coisa que sirva de objeto para apoiá-lo, como: uma boia, um pneu ou uma calça de posicionamento. A partir desse momento, o bebê já pode ser colocado na posição sentado por alguns minutos, durante o dia. Quando o bebê ainda não tem controle de tronco, sentá-lo dentro de uma boia para que ele apoie com as mãos favorece o ganho do controle de tronco e o bebê se sente seguro. A bacia, utilizando-se travesseiros, almofadas ou edredons como proteção, também pode ser usada para ajudar o bebê a conseguir e melhorar o controle de tronco. O bumbo (cadeira/assento infantil) é outra opção para favorecer o sentar, quando o bebê ainda não tem controle de tronco. O ideal é que seja feito com uma mesinha para que possamos colocar um brinquedinho para estimular o brincar e as habilidades manuais.
+                </div>
+              </div>
+            </div>
+            <!-- 5 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-second5" aria-expanded="false" aria-controls="da0a6-second5">
+                  Estimular o alcance anterior, as habilidades manuais, visuais e auditivas, o equilíbrio e a reação de proteção.
+                </button>
+              </div>
+              <div id="da0a6-second5" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Como, a partir do 5º para o 6º mês, o bebê já tem reação de proteção anterior, é importante colocar brinquedos/objetos à frente dele para estimulá-lo e desafiá-lo. Aproveite para estimular a linguagem: nomeie os brinquedos, utilize sons onomatopaicos, faça movimentos com os lábios.
+                </div>
+              </div>
+            </div>
+            <!-- 6 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-second6" aria-expanded="false" aria-controls="da0a6-second6">
+                  Aprimorar a percepção visual, ação/reação do bebê, estimular o sorriso social, favorecer a imitação, a interação e a localização de sons e pessoas.
+                </button>
+              </div>
+              <div id="da0a6-second6" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Os bebês amam brincadeiras de surpresas e de desaparecer e aparecer. Segure um pano ou coloque as mãos na frente do bebê, não deixe que veja sua face e pergunte: “Cadê o bebê? Cadê a mamãe? Cadê o papai?”. Em seguida, mostre seu rosto e fale: “Achou!”. Tenha cuidado para não assustá-lo com movimentos bruscos e falas intempestivas.
+                </div>
+              </div>
+            </div>
+            <!-- 7 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-second7" aria-expanded="false" aria-controls="da0a6-second7">
+                  Aprimorar a percepção visual e estimular os sentidos.
+                </button>
+              </div>
+              <div id="da0a6-second7" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Cole texturas diferentes (grãos, algodão, isopor, tampinhas, pedrinhas, retalhos de panos, esponja, macarrão, etc.) em um TNT ou EVA. Coloque a criança para poder realizar exploração das diversas texturas.
+                </div>
+              </div>
+            </div>
+            <!-- 8 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-second8" aria-expanded="false" aria-controls="da0a6-second8">
+                  Estimular a função bimanual e a coordenação motora grossa/fina, visual e auditiva.
+                </button>
+              </div>
+              <div id="da0a6-second8" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Utilize brinquedos coloridos, podendo também ser sonoros. Coloque uma caixa para que a criança possa colocar e retirar os brinquedos/objetos.
+                </div>
+              </div>
+            </div>
+            <!-- 9 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-second9" aria-expanded="false" aria-controls="da0a6-second9">
+                  Estimular a descarga de peso nos quatro membros, por meio da postura de quatro apoios; fortalecimento do tronco e preparação para o engatinhar.
+                </button>
+              </div>
+              <div id="da0a6-second9" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Sente-se ou ajoelhe-se no chão e coloque o bebê de bruços, em cima de uma das suas pernas. Dobre os joelhos do bebê com uma mão e utilize a outra mão para estender os braços da criança e colocar suas mãos apoiadas e abertas no chão e com os dedos para frente. As mãos do bebê devem estar alinhadas com os ombros. Aos poucos, ofereça objetos para trabalhar o alcance anterior e a transferência para um dos lados.
+                </div>
+              </div>
+            </div>
+            <!-- 10 -->
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#da0a6-second10" aria-expanded="false" aria-controls="da0a6-second10">
+                  Estimular o contato visual, a imagem e a vocalização.
+                </button>
+              </div>
+              <div id="da0a6-second10" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Coloque o bebê em frente ao espelho, faça expressões faciais e converse com o bebê.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CONTENT END -->
+        </div>
+      </div>
 
       <div class="callout" type="info" text="Conheça também o <a href='https://ufla.br/images/noticias/2019/04_Abril/protocolo-intencoes.pdf' target='_blank'>Protocolo de Intervenções de Estimulação</a>. Acesse também as diretrizes de estimulação precoce crianças de 0 a 3 anos com atraso no desenvolvimento neuropsicomotor, disponível em: <a href='https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-da-pessoa-com-deficiencia/publicacoes/diretrizes-de-estimulacao-precoce-criancas-de-zero-a-3-anos-com-atraso-no-desenvolvimento-neuropsicomotorpdf/view' target='_blank'>Diretrizes de estimulação precoce: crianças de zero a 3 anos com atraso no desenvolvimento neuropsicomotor</a>."></div>
 
       <h3>Sinais de alerta ao final dos trimestres</h3>
       <p>Agora, siga aprofundando seu aprendizado e confira os sinais de alerta ao final dos trimestres.</p>
 
-      <figure id="6">
-        <img src="img/un2/placeholder-5.png" alt="">
+      <figure id="sinais-alerta-final-trimestre">
         <figcaption>
-          Figura 2 – Sinais de alerta ao final dos trimestres.
-        </figcaption>
-        <figcaption>
-          Fonte: Brasil (2023, p. 43)
+          Figura X – Sinais de alerta ao final dos trimestres.<br>
+          Adaptado de: Brasil (2023, p. 43)
         </figcaption>
       </figure>
 
@@ -217,12 +516,14 @@
         Assista a seguir os vídeos sobre os sinais de alerta ao final dos trimestres.
       </p>
 
-      <div class="video" title="SINAIS DE ALERTA NOS 3 PRIMEIROS MESES DO BEBÊ" src="https://www.youtube.com/embed/LA9IdtvGilM"></div>
-      <div class="video" title="7. 2º Trimestre 4 a 6 meses - Demostrando as formas de posicionar e segurar o bebê" src="https://www.youtube.com/embed/KkY5qD61YkU"></div>
-      <!--       Mídia – Vídeos
-      Assista aos vídeos sobre os sinais de alerta:
-      https://www.youtube.com/watch?v=LA9IdtvGilM
-      https://youtu.be/KkY5qD61YkU?si=dYBmnC15zb-mguMt -->
+      <div class="row">
+        <div class="col-lg">
+          <div class="video" title="Sinais de alerta nos 3 primeiros meses do bebê" src="https://www.youtube.com/embed/LA9IdtvGilM"></div>
+        </div>
+        <div class="col-lg">
+          <div class="video" title="2º Trimestre 4 a 6 meses - Demostrando as formas de posicionar e segurar o bebê" src="https://www.youtube.com/embed/KkY5qD61YkU"></div>
+        </div>
+      </div>
 
       <!-- <h2>Marcos do desenvolvimento dos 6 meses a 1 ano e meio</h2> -->
       <figure id="fig-title-2" class="figure-title"></figure>
@@ -357,7 +658,7 @@
         18 a 19 meses
         20 a 21 meses
         21 a 22 meses
-  
+
         CARD
         Além disso, consegue dos 18 aos 19 meses (Legarda, 2009):
         Segura um copo com uma mão.
@@ -370,7 +671,7 @@
         Pode apresentar birras, insegurança e desconfiança quando da mudança repentina.
         Pensa antes de agir.
         Melhora importante da memória, recordando onde estão as coisas.
-  
+
         Dos 20 a 21 meses (Legarda, 2009):
         Pula no lugar com os pés juntos.
         Pode já conseguir caminhar para trás.
@@ -386,8 +687,8 @@
         Entende o que está em cima, embaixo, vazio, cheio.
         Inicia o jogo simbólico: realiza atividade lúdica representando ser outra pessoa.
         Ganha mais autoconfiança, veste-se sozinha, mas troca os pés dos calçados, gosta de se sentir parte do lar (Legarda, 2009).
-  
-  
+
+
         Dos 21 a 22 meses (Legarda, 2009):
         Manuseia a colher e o garfo com grande destreza.
         Pega a mão do seu cuidador e o conduz a algum lugar.
@@ -395,8 +696,8 @@
         Constrói frases com três palavras, omitindo os sujeitos.
         Progride o uso dos tempos verbais, do singular e plural e do feminino e masculino.
         Identifica personagens de uma ilustração, relata o que observa, dando algum outro detalhe.
-  
-  
+
+
         Desenvolvimento da função manual:
         Muitas das habilidades adquiridas de 1 ano e meio a 3 anos estão mencionadas nas descrições acima. Na sequência mencionamos mais algumas a fim de que você possa observar algumas das habilidades que podem estar presentes neste período:
         Constrói torres de cinco cubos com demonstração e incentivo.
@@ -416,7 +717,7 @@
         13 a 15 meses
         16 a 18 meses
         1 ano e 7 meses a 3 anos
-  
+
         Quadro 4 – Dicas de atividades para crianças até 3 anos
         Idade
         Objetivos
@@ -431,7 +732,7 @@
         Você deve fazer a posição de vivo ou morto (agachar e levantar) para a criança realizar por meio de imitação e/ou comando verbal.
         Ensinar a relação entre ação e reação. Estimular a coordenação olho-mão, as habilidades manuais e a imitação.
         Empilhe vários blocos diante da criança e a estimule a jogar tudo no chão, e depois motive-a a empilhar novamente os blocos.
-        
+
         16 a 18 meses
         Estimular coordenação motora, lateralidade, percepção de noção espacial e visual, força, ação e reação.
         Utilize pinos, garrafas pets ou brinquedos diversos (que fiquem em pé) e uma bola.
@@ -443,7 +744,7 @@
         Utilize lata com furos na tampa e canudos/fios de cores primárias. A criança irá puxar os canudos/fios/palitos da lata.
         Estimular: desenvolvimento da linguagem, ritmo, entonação, imitação, ampliação do vocabulário e interação social.
         Utilize cantigas para esta atividade. Inicie a música e deixe a última palavra para a criança falar – técnica de closed (exemplo: “O sapo não lava o...” e a criança diz “pé”).
-        
+
         1 ano e 7 meses a 3 anos
         Trabalhar resolução de problemas, habilidade motora fina, percepção, nomeação de cores e formas geométricas.
         Monte quebra-cabeça de duas peças com a criança. A imagem do quebra-cabeça deve ser educativa, por exemplo, pode ser de figuras geométricas, cores, partes do corpo humano, animais. Com isso, você pode aproveitar para nomear e descrever o que tem na imagem e, se for desenho de animas, fazer o som onomatopaico.
@@ -666,7 +967,7 @@
         Estimular função bimanual, coordenação motora, planejamento, equilíbrio, regras e interação social.
         Vai-e-vem. Pode utilizar duas garrafas pet cortadas ao meio, unindo-as com fita crepe/durex; passar um cordão no meio e amarrar em duas argolas.
         5 anos
-  
+
         Trabalhar coordenação motora fina e coordenação visomotora, atenção, concentração e planejamento.
         Faça atividades de alinhavado. Utilize papelão, barbante, lápis de cor/canetinha.
         Estimular e favorecer a coordenação motora fina, concentração, atenção e sensibilidade tátil. Reconhecimento e nomeação e desenvolvimento da linguagem escrita.
@@ -679,7 +980,7 @@
         Brinque de falar palavras que começam com a mesma letra, por exemplo, falar palavras que comecem com a vogal “A”.
         Estimular linguagem, atenção auditiva, memorização, reconto e interação social.
         Brincadeira de telefone sem fio.
-  
+
         *Bilboquê: brinquedo que consiste numa bola provida de um furo, ligada por um cordel a um bastonete côncavo numa das extremidades e pontudo na outra, onde ela deve respectivamente ser aparada ou se encaixar, depois de atirada para o ar.
         Fonte: Brasil (2023)
       </pre>
