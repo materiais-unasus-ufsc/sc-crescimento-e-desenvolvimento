@@ -2,6 +2,23 @@
 
 @import "sc-common/common.scss";
 
+.custom-blue-btn {
+  width: 100%;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: $color-blue-bell-50;
+  background-color: $color-blue-bell-600;
+  transition: all ease 0.1s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-blue-bell-900;
+  }
+}
+
 /* --- BOOTSTRAP CUSTOMIZATION --- */
 
 .accordion-item {
@@ -56,16 +73,49 @@
   }
 }
 
+.custom-popover-1 {
+  @include popover-style(
+    $max-width: 448px,
+    $header-bg: #e3d6ee,
+    $header-font-size: 1.125rem,
+    $body-bg: #e3d6ee,
+    $body-font-size: 1rem,
+    $font-color: $color-blue-bell-900
+  );
+
+  font-weight: 500;
+}
+
+.custom-popover-2 {
+  @include popover-style(
+    $max-width: 364px,
+    $header-bg: $color-neutral-lighter,
+    $header-font-size: 1rem,
+    $body-bg: $color-neutral-lighter,
+    $body-font-size: 1rem,
+    $font-color: $color-blue-bell-900
+  );
+}
+
 /* --- FIGURES --- */
 
-figure.figure-title {
-  height: 250px;
-  svg {
-    position: absolute;
+button.section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem auto;
+  background: none;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
   }
 
-  &#fig-title-3 {
-    height: 264px;
+  > img {
+    width: 100%;
   }
 }
 
@@ -80,6 +130,7 @@ figure.figure-title {
 }
 
 /* --- UNS --- */
+
 #un1 {
   @include list-style($list-bullet-nav-1, $list-bullet-content-1);
 
@@ -146,6 +197,78 @@ figure.figure-title {
       position: absolute;
       top: -60px;
       left: -100px;
+    }
+  }
+
+  #atividades-estimulacao {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 752px;
+    padding: 1rem 2rem;
+    color: $color-blue-bell-950;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 1rem;
+    background-color: $color-blue-bell-400;
+  }
+
+  #atencao-caderneta-crianca {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 1.5rem;
+
+    max-width: 506px;
+    border-radius: 0.75rem;
+    background-color: $color-light-orchid-200;
+    color: $color-neutral-daker;
+    text-align: center;
+    font-weight: 600;
+
+    > :first-child {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: $color-light-orchid-700;
+    }
+  }
+
+  #dsm1n5a3 {
+    height: 100%;
+    width: 100%;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    button {
+      @extend .custom-blue-btn;
+    }
+  }
+
+  #dm6a10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+    button {
+      @extend .custom-blue-btn;
+    }
+  }
+
+  #marcos-desenvolvimento-3-a-5 {
+    position: relative;
+
+    > button {
+      @extend .custom-blue-btn;
+      max-width: 300px;
+      max-height: 100px;
+      position: absolute;
+      top: 50%;
     }
   }
 }

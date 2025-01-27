@@ -3,16 +3,31 @@
  * @module un2
  */
 
+function setUpCloseButton(closeButton) {
+  closeButton.setAttribute("type", "button");
+  closeButton.setAttribute("data-bs-dismiss", "modal");
+  closeButton.setAttribute("aria-label", "Close");
+  closeButton.style.cursor = "pointer";
+  const closeButtonCircle = closeButton.querySelector("circle");
+  const circleOriginalFill = closeButtonCircle.getAttribute("fill");
+  closeButton.addEventListener("mouseover", function () {
+    closeButtonCircle.setAttribute("fill", circleOriginalFill + "7d");
+  });
+  closeButton.addEventListener("mouseout", function () {
+    closeButtonCircle.setAttribute("fill", circleOriginalFill);
+  });
+}
+
 export function setupFigureReflexosPrimitivos() {
   document.addEventListener("SVGsLoaded", function () {
-    console.log("Setting up figure 'reflexos-primitivos'...");
+    console.log("[ UN2 ] Setting up figure 'reflexos-primitivos'...");
 
     const parser = new DOMParser();
     const modal = document.getElementById("figure-2-modal");
     const modalBody = modal.querySelector(".modal-body");
 
     const buttons = document.querySelector(
-      'figure[id="reflexos-primitivos"] g[id="buttons"]'
+      'figure[id="reflexos-primitivos"] g[id="buttons"]',
     );
     for (let i = 0; i < buttons.children.length; i++) {
       const button = buttons.children[i];
@@ -51,18 +66,7 @@ export function setupFigureReflexosPrimitivos() {
 
           // Close button setup.
           const closeButton = svgElement.querySelector("g[id='button-close'");
-          closeButton.setAttribute("type", "button");
-          closeButton.setAttribute("data-bs-dismiss", "modal");
-          closeButton.setAttribute("aria-label", "Close");
-          closeButton.style.cursor = "pointer";
-          const closeButtonCircle = closeButton.querySelector("circle");
-          const circleOriginalFill = closeButtonCircle.getAttribute("fill");
-          closeButton.addEventListener("mouseover", function () {
-            closeButtonCircle.setAttribute("fill", circleOriginalFill + "7d");
-          });
-          closeButton.addEventListener("mouseout", function () {
-            closeButtonCircle.setAttribute("fill", circleOriginalFill);
-          });
+          setUpCloseButton(closeButton);
 
           modalBody.appendChild(svgElement);
         });
@@ -71,7 +75,7 @@ export function setupFigureReflexosPrimitivos() {
     modal.addEventListener("show.bs.modal", (event) => {
       const button = event.relatedTarget;
       const svg = modalBody.querySelector(
-        `svg[id="${button.getAttribute("data-bs-name")}"`
+        `svg[id="${button.getAttribute("data-bs-name")}"`,
       );
       svg.style.display = "block";
     });
@@ -82,6 +86,21 @@ export function setupFigureReflexosPrimitivos() {
         svg.style.display = "none";
       }
     });
-    console.log("Figure 'reflexos-primitivos' all set");
+    console.log("[ UN2 ] Figure 'reflexos-primitivos' all set");
+  });
+}
+
+export function setupMarcosDesenvolvimento3a5() {
+  document.addEventListener("SVGsLoaded", () => {
+    console.log("[ UN2 ] Setting up figure 'marcos-desenvolvimento-3-a-5'...");
+
+    const expanded = document.getElementById(
+      "marcos-desenvolvimento-3-a-5-expanded",
+    );
+
+    const closeButton = expanded.querySelector("g[id='button-close'");
+    setUpCloseButton(closeButton);
+
+    console.log("[ UN2 ] Figure 'marcos-desenvolvimento-3-a-5' all set");
   });
 }

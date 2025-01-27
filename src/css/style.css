@@ -4687,6 +4687,7 @@
   }
 }
 /* --- VARIABLES --- */
+/* --- MIXINS --- */
 /* --- GENERAL --- */
 * {
   box-sizing: border-box;
@@ -4853,6 +4854,11 @@ pre {
   color: #4a4072;
 }
 
+@media (max-width: 991.98px) {
+  section > .row {
+    gap: 1rem;
+  }
+}
 section > .row > div > *:first-child {
   margin-top: 0;
 }
@@ -5068,7 +5074,7 @@ ul.custom-round-tabs.nav.nav-tabs > li > button.active {
   gap: 0.5rem;
   font-size: 1.25rem;
   font-style: normal;
-  text-decoration: none;
+  text-decoration: none !important;
   border-radius: 0.75rem;
   border: solid 2px #7b6eb9;
   transition: all ease-in-out 100ms;
@@ -5095,6 +5101,22 @@ ul.custom-round-tabs.nav.nav-tabs > li > button.active {
 footer {
   height: 80px;
   background-color: #7b6eb9;
+}
+
+.custom-blue-btn, #un2 #marcos-desenvolvimento-3-a-5 > button, #un2 #dm6a10 button, #un2 #dsm1n5a3 button {
+  width: 100%;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #f6f6fc;
+  background-color: #7b6eb9;
+  transition: all ease 0.1s;
+  cursor: pointer;
+}
+.custom-blue-btn:hover, #un2 #marcos-desenvolvimento-3-a-5 > button:hover, #un2 #dm6a10 button:hover, #un2 #dsm1n5a3 button:hover {
+  background-color: #4a4072;
 }
 
 /* --- BOOTSTRAP CUSTOMIZATION --- */
@@ -5143,15 +5165,51 @@ footer {
   background-color: #daede9;
 }
 
+.custom-popover-1 {
+  max-width: 448px;
+  font-weight: 500;
+}
+.custom-popover-1 .popover-header {
+  margin-top: auto;
+  font-size: 1.125rem;
+  background-color: #e3d6ee;
+  color: #4a4072;
+}
+.custom-popover-1 .popover-body {
+  font-size: 1rem;
+  background-color: #e3d6ee;
+  color: #4a4072;
+}
+.custom-popover-2 {
+  max-width: 364px;
+}
+.custom-popover-2 .popover-header {
+  margin-top: auto;
+  font-size: 1rem;
+  background-color: #f1f1f4;
+  color: #4a4072;
+}
+.custom-popover-2 .popover-body {
+  font-size: 1rem;
+  background-color: #f1f1f4;
+  color: #4a4072;
+}
 /* --- FIGURES --- */
-figure.figure-title {
-  height: 250px;
+button.section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  background: none;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
 }
-figure.figure-title svg {
-  position: absolute;
+button.section-title:hover {
+  opacity: 0.9;
 }
-figure.figure-title#fig-title-3 {
-  height: 264px;
+button.section-title > img {
+  width: 100%;
 }
 
 #cuidado-criacao {
@@ -5218,6 +5276,61 @@ figure.figure-title#fig-title-3 {
   position: absolute;
   top: -60px;
   left: -100px;
+}
+#un2 #atividades-estimulacao {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 752px;
+  padding: 1rem 2rem;
+  color: #2e294c;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 1rem;
+  background-color: #aeabda;
+}
+#un2 #atencao-caderneta-crianca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 1.5rem;
+  max-width: 506px;
+  border-radius: 0.75rem;
+  background-color: #f2d8ef;
+  color: #434556;
+  text-align: center;
+  font-weight: 600;
+}
+#un2 #atencao-caderneta-crianca > :first-child {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #9b3b81;
+}
+#un2 #dsm1n5a3 {
+  height: 100%;
+  width: 100%;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+#un2 #dm6a10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+#un2 #marcos-desenvolvimento-3-a-5 {
+  position: relative;
+}
+#un2 #marcos-desenvolvimento-3-a-5 > button {
+  max-width: 300px;
+  max-height: 100px;
+  position: absolute;
+  top: 50%;
 }
 
 #un3 .hero .title {
