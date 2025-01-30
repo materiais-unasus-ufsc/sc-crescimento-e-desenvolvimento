@@ -34,12 +34,12 @@
 .accordion-button {
   color: $color-neutral-black;
   border-radius: 1rem !important;
-  background-color: $color-blue-bell-400;
+  background-color: $color-blue-bell-500;
   font-weight: bolder;
 
   &:not(.collapsed) {
     color: inherit;
-    background-color: $color-blue-bell-500;
+    background-color: $color-blue-bell-400;
   }
 
   &:focus {
