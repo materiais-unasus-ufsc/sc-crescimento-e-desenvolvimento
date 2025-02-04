@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass src/css",
     "sass-watch": "sass --watch src/style.scss:src/css/style.css",
-    "browser-sync": "browser-sync start --server --files 'src/css/*.css'"
+    "browser-sync": "browser-sync start --server --files 'src/css/*.css'",
+    "live-server": "concurrently \"npm run sass-watch\" \"npm run browser-sync\""
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,8 @@
     "bootstrap": "5.3.3"
   },
   "devDependencies": {
-    "browser-sync": "^3.0.3"
+    "sass": "^1.83.4",
+    "browser-sync": "^3.0.3",
+    "concurrently": "^7.0.0"
   }
 }
