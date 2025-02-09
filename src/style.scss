@@ -129,7 +129,42 @@ button.section-title {
   }
 }
 
-/* --- UNS --- */
+/* --- PAGES --- */
+
+body#about {
+  @include list-style(
+    url("../img/about/bullet-nav.svg"),
+    url("../img/about/bullet-main.svg")
+  );
+
+  .hero {
+    .title {
+      background: $color-blue-bell-300;
+      > :first-child {
+        @extend .d-none;
+      }
+    }
+  }
+
+  .message {
+    padding: 2rem;
+    background: $color-blue-bell-200;
+    border-radius: 1.25rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    > *:first-child {
+      margin-top: 0;
+    }
+    > *:last-child {
+      margin-bottom: 0;
+    }
+
+    > h6 {
+      font-family: $font-playpen-sans;
+      font-size: 1.5rem;
+    }
+  }
+}
 
 #un1 {
   @include list-style($list-bullet-nav-1, $list-bullet-content-1);
