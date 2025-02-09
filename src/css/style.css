@@ -5350,6 +5350,33 @@ header .ci-hamburger {
   margin-bottom: 0;
 }
 
+/* --- QUIZ CALL TO ACTION --- */
+.quiz-cta {
+  padding: 2rem;
+  border-radius: 0.75rem;
+  background-color: #f1f1f4;
+}
+.quiz-cta h6 {
+  font-weight: 500;
+  color: #434556;
+  margin-top: 0;
+  font-family: "Playpen Sans";
+  font-size: 1.5rem;
+}
+.quiz-cta button {
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  background-color: #a9abbc;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.quiz-cta button:hover {
+  opacity: 0.9;
+}
+
 /* --- BOOTSTRAP CUSTOMIZATION --- */
 .accordion .accordion-body > :first-child {
   margin-top: 0;
@@ -5590,6 +5617,12 @@ body#about .message > h6 {
 #un1 .arrow-bullets li::before {
   content: url("../img/common/bullet-nav-1.svg") !important;
 }
+#un1 .quiz-cta {
+  background-color: #daede9;
+}
+#un1 .quiz-cta button {
+  background-color: #93c6bf;
+}
 #un1 .hero .title {
   background-color: #b5dad4;
 }
@@ -5605,6 +5638,12 @@ body#about .message > h6 {
 }
 #un2 .arrow-bullets li::before {
   content: url("../img/common/bullet-nav-2.svg") !important;
+}
+#un2 .quiz-cta {
+  background-color: #f8ebf6;
+}
+#un2 .quiz-cta button {
+  background-color: #e1a3d8;
 }
 #un2 .hero .title {
   background-color: #f2d8ef;

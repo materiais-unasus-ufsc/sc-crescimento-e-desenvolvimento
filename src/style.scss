@@ -168,6 +168,7 @@ body#about {
 
 #un1 {
   @include list-style($list-bullet-nav-1, $list-bullet-content-1);
+  @include quiz-cta-color($color-shadow-green-100, $color-shadow-green-300);
 
   .hero {
     .title {
@@ -184,6 +185,7 @@ body#about {
 
 #un2 {
   @include list-style($list-bullet-nav-2, $list-bullet-content-2);
+  @include quiz-cta-color($color-light-orchid-100, $color-light-orchid-300);
 
   .hero {
     .title {
