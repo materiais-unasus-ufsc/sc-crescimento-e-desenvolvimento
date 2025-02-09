@@ -15,6 +15,10 @@ document.addEventListener("DOMContentLoaded", () => {
   common.setUpPopovers();
 });
 
+document.addEventListener("ComponentsLoaded", () => {
+  common.setupDropdownMenu(vars.links);
+});
+
 export function navigate(option) {
   common.navigate(option, vars.links["main"], vars.navigation);
 }
