@@ -1,0 +1,57 @@
+<svg width="372" height="552" viewBox="0 0 372 552" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tea-class-1">
+<g id="Frame 854" filter="url(#filter0_d_2327_15669)">
+<rect x="4" y="212" width="364" height="332" rx="12" fill="#F1F1F4" shape-rendering="crispEdges"/>
+<g id="Group 811">
+<text id="Necessita de suporte" fill="#434556" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="91.7021" y="274.483">Necessita de suporte</tspan></text>
+<text id="O comportamento interfere significativamente na comunica&#195;&#167;&#195;&#163;o social, podendo apresentar interesse reduzido por intera&#195;&#167;&#195;&#181;es com outras pessoas. Dificuldade em trocar de atividades, independ&#195;&#170;ncia limitada por problemas com organiza&#195;&#167;&#195;&#163;o e planejamento." fill="#434556" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="18" letter-spacing="0em"><tspan x="28" y="311.483">O </tspan><tspan x="88.0371" y="311.483">comportamento </tspan><tspan x="270.875" y="311.483">interfere </tspan><tspan x="28" y="336.483">significativamente </tspan><tspan x="196.072" y="336.483">na </tspan><tspan x="233.152" y="336.483">comunica&#xe7;&#xe3;o </tspan><tspan x="28" y="361.483">social, </tspan><tspan x="86.2943" y="361.483">podendo </tspan><tspan x="168.653" y="361.483">apresentar </tspan><tspan x="267.148" y="361.483">interesse </tspan><tspan x="28" y="386.483">reduzido </tspan><tspan x="110.981" y="386.483">por </tspan><tspan x="148.805" y="386.483">intera&#xe7;&#xf5;es </tspan><tspan x="245.04" y="386.483">com </tspan><tspan x="289.771" y="386.483">outras </tspan><tspan x="28" y="411.483">pessoas. </tspan><tspan x="113.042" y="411.483">Dificuldade </tspan><tspan x="220.251" y="411.483">em </tspan><tspan x="259.643" y="411.483">trocar </tspan><tspan x="322.871" y="411.483">de </tspan><tspan x="28" y="436.483">atividades, </tspan><tspan x="134.953" y="436.483">independ&#xea;ncia </tspan><tspan x="276.236" y="436.483">limitada </tspan><tspan x="28" y="461.483">por </tspan><tspan x="69.4531" y="461.483">problemas </tspan><tspan x="171.832" y="461.483">com </tspan><tspan x="220.193" y="461.483">organiza&#xe7;&#xe3;o </tspan><tspan x="333.893" y="461.483">e </tspan><tspan x="28" y="486.483">planejamento.&#10;</tspan></text>
+</g>
+</g>
+<g id="Group 811_2">
+<g id="Group 808">
+<g id="Frame 850" filter="url(#filter1_d_2327_15669)">
+<rect x="4" y="141" width="364" height="74" rx="12" fill="#AEABDA" shape-rendering="crispEdges"/>
+<text id="Grau Leve" fill="white" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="135.834" y="185.759">Grau Leve</tspan></text>
+</g>
+<g id="Frame 851" filter="url(#filter2_d_2327_15669)">
+<rect x="112" y="3" width="148" height="144" rx="72" fill="#AEABDA" shape-rendering="crispEdges"/>
+<rect x="112" y="3" width="148" height="144" rx="72" stroke="white" stroke-width="6" shape-rendering="crispEdges"/>
+<text id="N&#195;&#173;vel" fill="white" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="162.5" y="53.9829">N&#xed;vel</tspan></text>
+<text id="1" fill="white" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="64" font-weight="800" letter-spacing="0em"><tspan x="167.25" y="115.188">1</tspan></text>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_2327_15669" x="0" y="212" width="372" height="340" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2327_15669"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2327_15669" result="shape"/>
+</filter>
+<filter id="filter1_d_2327_15669" x="0" y="141" width="372" height="82" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2327_15669"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2327_15669" result="shape"/>
+</filter>
+<filter id="filter2_d_2327_15669" x="105" y="0" width="162" height="158" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2327_15669"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2327_15669" result="shape"/>
+</filter>
+</defs>
+</svg>

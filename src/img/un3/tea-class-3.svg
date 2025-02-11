@@ -1,0 +1,55 @@
+<svg width="372" height="552" viewBox="0 0 372 552" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tea-class-3">
+<g id="Frame 856" filter="url(#filter0_d_2327_15657)">
+<rect x="4" y="212" width="364" height="332" rx="12" fill="#F1F1F4" shape-rendering="crispEdges"/>
+<g id="Group 811">
+<text id="Necessita de suporte muito substancial" fill="#434556" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="62.373" y="273.515">Necessita de suporte muito </tspan><tspan x="134.602" y="298.515">substancial&#10;</tspan></text>
+<text id="O comportamento interfere marcadamente com fun&#195;&#167;&#195;&#163;o em todas as esferas; dificuldade extrema de lidar com mudan&#195;&#167;as; grande afli&#195;&#167;&#195;&#163;o/dificuldade de mudar o foco ou a a&#195;&#167;&#195;&#163;o." fill="#434556" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="18" letter-spacing="0em"><tspan x="28" y="343.93">O </tspan><tspan x="88.0371" y="343.93">comportamento </tspan><tspan x="270.875" y="343.93">interfere </tspan><tspan x="28" y="368.93">marcadamente </tspan><tspan x="161.18" y="368.93">com </tspan><tspan x="202.462" y="368.93">fun&#xe7;&#xe3;o </tspan><tspan x="265.224" y="368.93">em </tspan><tspan x="297.154" y="368.93">todas </tspan><tspan x="28" y="393.93">as </tspan><tspan x="58.6118" y="393.93">esferas; </tspan><tspan x="136.175" y="393.93">dificuldade </tspan><tspan x="240.755" y="393.93">extrema </tspan><tspan x="322.871" y="393.93">de </tspan><tspan x="28" y="418.93">lidar </tspan><tspan x="73.0303" y="418.93">com </tspan><tspan x="116.689" y="418.93">mudan&#xe7;as; </tspan><tspan x="215.931" y="418.93">grande </tspan><tspan x="282.775" y="418.93">afli&#xe7;&#xe3;o/</tspan><tspan x="28" y="443.93">dificuldade </tspan><tspan x="131.746" y="443.93">de </tspan><tspan x="164.072" y="443.93">mudar </tspan><tspan x="231.36" y="443.93">o </tspan><tspan x="253.385" y="443.93">foco </tspan><tspan x="300.934" y="443.93">ou </tspan><tspan x="333.998" y="443.93">a </tspan><tspan x="28" y="468.93">a&#xe7;&#xe3;o.</tspan></text>
+</g>
+</g>
+<g id="Group 810">
+<g id="Frame 854" filter="url(#filter1_d_2327_15657)">
+<rect x="4" y="141" width="364" height="74" rx="12" fill="#7B6EB9" shape-rendering="crispEdges"/>
+<text id="Grau Severo" fill="white" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="125.248" y="185.759">Grau Severo</tspan></text>
+</g>
+<g id="Frame 855" filter="url(#filter2_d_2327_15657)">
+<rect x="112" y="3" width="148" height="144" rx="72" fill="#7B6EB9" shape-rendering="crispEdges"/>
+<rect x="112" y="3" width="148" height="144" rx="72" stroke="white" stroke-width="6" shape-rendering="crispEdges"/>
+<text id="N&#195;&#173;vel" fill="white" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="162.5" y="53.9829">N&#xed;vel</tspan></text>
+<text id="3" fill="white" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="64" font-weight="800" letter-spacing="0em"><tspan x="167.25" y="115.188">3</tspan></text>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_2327_15657" x="0" y="212" width="372" height="340" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2327_15657"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2327_15657" result="shape"/>
+</filter>
+<filter id="filter1_d_2327_15657" x="0" y="141" width="372" height="82" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2327_15657"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2327_15657" result="shape"/>
+</filter>
+<filter id="filter2_d_2327_15657" x="105" y="0" width="162" height="158" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2327_15657"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2327_15657" result="shape"/>
+</filter>
+</defs>
+</svg>

@@ -626,7 +626,7 @@
   width: 16.66666667%;
 }
 
-.col-3 {
+.col-3, .topic .topic-head .topic-illustration {
   flex: 0 0 auto;
   width: 25%;
 }
@@ -656,7 +656,7 @@
   width: 66.66666667%;
 }
 
-.col-9 {
+.col-9, .topic .topic-head .topic-content {
   flex: 0 0 auto;
   width: 75%;
 }
@@ -5039,17 +5039,20 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  color: #70728f;
+  color: #434556;
   font-weight: bold;
 }
 
 h4 {
-  font-size: 1.25rem;
-  color: #a9abbc;
+  color: #70728f;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 h5 {
-  font-size: 1.2rem;
+  color: #434556;
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 
 /* --- LISTS --- */
@@ -5106,6 +5109,16 @@ ul.icon-list > li img {
 
 .callout li::before {
   content: url("../img/common/bullet-callout-light.svg");
+}
+
+ol > li {
+  margin: 1rem 0;
+}
+ol > li:first-child {
+  margin-top: 0;
+}
+ol > li:last-child {
+  margin-bottom: 0;
 }
 
 /* --- TEXT --- */
@@ -5377,7 +5390,59 @@ header .ci-hamburger {
   opacity: 0.9;
 }
 
+/* --- CUSTOM CARD CUSTOMIZATION --- */
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: #434556;
+}
+.custom-card > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.custom-card .custom-card-title {
+  padding: 0.75rem 1rem;
+  color: #292929;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  background-color: #a9abbc;
+  border-radius: 1rem;
+}
+.custom-card .custom-card-content {
+  flex-grow: 1;
+  padding: 1.5rem;
+  background-color: #d4d5dd;
+  border-radius: 1rem;
+}
+.custom-card .custom-card-content > *:first-child {
+  margin-top: 0;
+}
+.custom-card .custom-card-content > *:last-child {
+  margin-bottom: 0;
+}
+.custom-card b {
+  font-weight: 500;
+}
+.custom-card.custom-card-orleans .custom-card-title {
+  color: #434556;
+  background-color: #f7f0dd;
+}
+.custom-card.custom-card-orleans .custom-card-content {
+  background-color: #fcf9f0;
+}
+.custom-card.custom-card-blue .custom-card-title {
+  color: #ffffff;
+  background-color: #2e294c;
+}
+.custom-card.custom-card-blue .custom-card-content {
+  background-color: #efeff8;
+}
+
 /* --- BOOTSTRAP CUSTOMIZATION --- */
+.accordion .accordion-button {
+  font-size: 1.125rem;
+}
 .accordion .accordion-body > :first-child {
   margin-top: 0;
 }
@@ -5403,6 +5468,36 @@ ul.custom-round-tabs.nav.nav-tabs > li > button {
 ul.custom-round-tabs.nav.nav-tabs > li > button.active {
   color: #292929;
 }
+ul.custom-round-tabs.nav.nav-tabs.blue-tabs {
+  border-color: #594c8b;
+}
+ul.custom-round-tabs.nav.nav-tabs.blue-tabs > li > button {
+  background-color: #cacae8;
+}
+ul.custom-round-tabs.nav.nav-tabs.blue-tabs > li > button.active {
+  border-color: #594c8b;
+  background-color: #938ccb;
+}
+ul.custom-round-tabs.nav.nav-tabs.orchid-tabs {
+  border-color: #ca6ab7;
+}
+ul.custom-round-tabs.nav.nav-tabs.orchid-tabs > li > button {
+  background-color: #f2d8ef;
+}
+ul.custom-round-tabs.nav.nav-tabs.orchid-tabs > li > button.active {
+  border-color: #ca6ab7;
+  background-color: #e1a3d8;
+}
+ul.custom-round-tabs.nav.nav-tabs.orleans-tabs {
+  border-color: #c27934;
+}
+ul.custom-round-tabs.nav.nav-tabs.orleans-tabs > li > button {
+  background-color: #efdeb9;
+}
+ul.custom-round-tabs.nav.nav-tabs.orleans-tabs > li > button.active {
+  border-color: #c27934;
+  background-color: #e7cc99;
+}
 
 /* --- VIDEO --- */
 .video {
@@ -5412,6 +5507,35 @@ ul.custom-round-tabs.nav.nav-tabs > li > button.active {
 .video svg {
   width: 100%;
   height: auto !important;
+}
+
+/* --- TOPIC --- */
+.topic .topic-head {
+  margin-bottom: -1rem;
+  padding: 3rem 4rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.topic .topic-head .topic-content h6 {
+  font-family: "Playpen Sans";
+  color: #434556;
+  font-size: 1.5rem;
+}
+.topic .topic-head .topic-content > *:first-child {
+  margin-top: 0;
+}
+.topic .topic-head .topic-content > *:last-child {
+  margin-bottom: 0;
+}
+.topic .topic-head .topic-illustration img {
+  width: 100%;
+}
+.topic.topic-blue .topic-head {
+  background-color: #efeff8;
+}
+.topic.topic-blue b {
+  color: #292929;
+  font-weight: 500;
 }
 
 .footer-nav {
@@ -5474,6 +5598,39 @@ footer {
 }
 .custom-blue-btn:hover, #un2 #marcos-desenvolvimento-3-a-5 > button:hover, #un2 #dm6a10 button:hover, #un2 #dsm1n5a3 button:hover {
   background-color: #4a4072;
+}
+
+.tea-title {
+  width: 100%;
+  margin-top: 6rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  color: #434556;
+  font-family: "Playpen Sans";
+  font-size: 1.25rem;
+  font-weight: 500;
+  position: relative;
+}
+.tea-title > img {
+  position: absolute;
+  bottom: 8px;
+  right: 0;
+  max-width: 300px;
+}
+@media (max-width: 991.98px) {
+  .tea-title > img {
+    max-width: 120px;
+  }
+}
+.tea-title.orleans {
+  background-color: #efdeb9;
+}
+.tea-title.pink {
+  background-color: #f5d8d3;
+}
+.tea-title.orchid {
+  background-color: #f2d8ef;
 }
 
 /* --- BOOTSTRAP CUSTOMIZATION --- */
@@ -5651,18 +5808,6 @@ body#about .message > h6 {
 #un2 .callout[type=warning] {
   background-color: #f2d8ef;
 }
-#un2 #dmTabs {
-  border-color: #ca6ab7;
-}
-#un2 #dmTabs > li > button {
-  background-color: #f8ebf6;
-}
-#un2 #dmTabs > li > button.active {
-  border-top-color: #ca6ab7;
-  border-left-color: #ca6ab7;
-  border-right-color: #ca6ab7;
-  background-color: #f2d8ef;
-}
 #un2 #triagem-auditiva-neonatal {
   margin: 3rem auto 4rem auto;
   max-width: 946px;
@@ -5737,11 +5882,23 @@ body#about .message > h6 {
   top: 50%;
 }
 
+#un3 ul:not(.nav, .dropdown-menu) > li::before {
+  content: url("../img/un3/bullet-main.svg");
+}
+#un3 .nav-index > ul > li::before {
+  content: url("../img/un3/bullet-nav.svg");
+}
+#un3 .arrow-bullets li::before {
+  content: url("../img/un3/bullet-nav.svg") !important;
+}
 #un3 .hero .title {
-  /* background-color: ; */
+  background-color: #efdeb9;
 }
 #un3 .callout[type=warning] {
-  background-color: #f5d8d3;
+  background-color: #efdeb9;
+}
+#un3 #trissomiaComorbidadesTabsContent .row, #un3 #trissomiaComorbidadesTabsContent .hero .title, .hero #un3 #trissomiaComorbidadesTabsContent .title {
+  --bs-gutter-x: 0.6rem;
 }
 
 #un4 .hero .title {

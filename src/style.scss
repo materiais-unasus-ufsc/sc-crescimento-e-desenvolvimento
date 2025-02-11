@@ -19,6 +19,40 @@
   }
 }
 
+.tea-title {
+  width: 100%;
+  margin-top: 6rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  color: $color-neutral-daker;
+  font-family: $font-playpen-sans;
+  font-size: 1.25rem;
+  font-weight: 500;
+  position: relative;
+
+  > img {
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+    max-width: 300px;
+
+    @include media-breakpoint-down(lg) {
+      max-width: 120px;
+    }
+  }
+
+  &.orleans {
+    background-color: $color-new-orleans-200;
+  }
+  &.pink {
+    background-color: $color-tonys-pink-200;
+  }
+  &.orchid {
+    background-color: $color-light-orchid-200;
+  }
+}
+
 /* --- BOOTSTRAP CUSTOMIZATION --- */
 
 .accordion-item {
@@ -199,23 +233,6 @@ body#about {
     }
   }
 
-  #dmTabs {
-    border-color: $color-light-orchid-500;
-
-    > li {
-      > button {
-        background-color: $color-light-orchid-100;
-
-        &.active {
-          border-top-color: $color-light-orchid-500;
-          border-left-color: $color-light-orchid-500;
-          border-right-color: $color-light-orchid-500;
-          background-color: $color-light-orchid-200;
-        }
-      }
-    }
-  }
-
   #triagem-auditiva-neonatal {
     margin: 3rem auto 4rem auto;
     max-width: 946px;
@@ -311,15 +328,26 @@ body#about {
 }
 
 #un3 {
+  @include list-style(
+    url("../img/un3/bullet-nav.svg"),
+    url("../img/un3/bullet-main.svg")
+  );
+
   .hero {
     .title {
-      /* background-color: ; */
+      background-color: $color-new-orleans-200;
     }
   }
 
   .callout {
     &[type="warning"] {
-      background-color: $color-tonys-pink-200;
+      background-color: $color-new-orleans-200;
+    }
+  }
+
+  #trissomiaComorbidadesTabsContent {
+    .row {
+      --bs-gutter-x: 0.6rem;
     }
   }
 }
