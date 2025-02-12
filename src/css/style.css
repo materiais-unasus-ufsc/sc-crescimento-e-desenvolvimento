@@ -5308,6 +5308,11 @@ header .ci-hamburger {
   background-color: #4a4072;
   color: #f6f6fc;
 }
+.callout[type=glossary] h6 {
+  margin: 0;
+  font-family: "Playpen Sans", sans-serif;
+  font-size: 1.5rem;
+}
 .callout[type=glossary] a {
   color: #e2e2f2;
 }
@@ -5890,6 +5895,12 @@ body#about .message > h6 {
 }
 #un3 .arrow-bullets li::before {
   content: url("../img/un3/bullet-nav.svg") !important;
+}
+#un3 .quiz-cta {
+  background-color: #f7f0dd;
+}
+#un3 .quiz-cta button {
+  background-color: #d8a65f;
 }
 #un3 .hero .title {
   background-color: #efdeb9;

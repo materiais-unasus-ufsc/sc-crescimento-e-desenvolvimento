@@ -332,6 +332,7 @@ body#about {
     url("../img/un3/bullet-nav.svg"),
     url("../img/un3/bullet-main.svg")
   );
+  @include quiz-cta-color($color-new-orleans-100, $color-new-orleans-400);
 
   .hero {
     .title {
