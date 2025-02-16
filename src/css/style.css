@@ -5134,10 +5134,7 @@ a:not(.nav)[role=button] {
 }
 
 blockquote {
-  margin-left: 1rem;
-  margin-right: 2rem;
-  padding-left: 1rem;
-  border-left: 2px solid #70728f;
+  max-width: 750px;
   font-size: 1.125rem;
   line-height: 1.625rem;
   font-style: italic;
@@ -5198,6 +5195,8 @@ header h5 {
   margin: 1rem 0;
   max-width: 400px;
   color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 header span.un-tag {
   font-size: 1.5rem;
@@ -5434,6 +5433,7 @@ header .ci-hamburger {
   background-color: #f7f0dd;
 }
 .custom-card.custom-card-orleans .custom-card-content {
+  color: #434556;
   background-color: #fcf9f0;
 }
 .custom-card.custom-card-blue .custom-card-title {
@@ -5441,7 +5441,16 @@ header .ci-hamburger {
   background-color: #2e294c;
 }
 .custom-card.custom-card-blue .custom-card-content {
+  color: #434556;
   background-color: #efeff8;
+}
+.custom-card.custom-card-pink .custom-card-title {
+  color: #292929;
+  background-color: #e5a498;
+}
+.custom-card.custom-card-pink .custom-card-content {
+  color: #292929;
+  background-color: #f5d8d3;
 }
 
 /* --- BOOTSTRAP CUSTOMIZATION --- */
@@ -5912,11 +5921,26 @@ body#about .message > h6 {
   --bs-gutter-x: 0.6rem;
 }
 
+#un4 ul:not(.nav, .dropdown-menu) > li::before {
+  content: url("../img/un4/bullet-main.svg");
+}
+#un4 .nav-index > ul > li::before {
+  content: url("../img/un4/bullet-nav.svg");
+}
+#un4 .arrow-bullets li::before {
+  content: url("../img/un4/bullet-nav.svg") !important;
+}
+#un4 .quiz-cta {
+  background-color: #f9eae7;
+}
+#un4 .quiz-cta button {
+  background-color: #e5a498;
+}
 #un4 .hero .title {
-  /* background-color: ; */
+  background-color: #f5d8d3;
 }
 #un4 .callout[type=warning] {
-  background-color: #efdeb9;
+  background-color: #f5d8d3;
 }
 
 /*# sourceMappingURL=style.css.map */

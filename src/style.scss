@@ -354,15 +354,21 @@ body#about {
 }
 
 #un4 {
+  @include list-style(
+    url("../img/un4/bullet-nav.svg"),
+    url("../img/un4/bullet-main.svg")
+  );
+  @include quiz-cta-color($color-tonys-pink-100, $color-tonys-pink-400);
+
   .hero {
     .title {
-      /* background-color: ; */
+      background-color: $color-tonys-pink-200;
     }
   }
 
   .callout {
     &[type="warning"] {
-      background-color: $color-new-orleans-200;
+      background-color: $color-tonys-pink-200;
     }
   }
 }
