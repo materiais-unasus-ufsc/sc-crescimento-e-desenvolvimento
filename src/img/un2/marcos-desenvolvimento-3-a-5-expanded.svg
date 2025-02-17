@@ -1,22 +1,22 @@
 <svg width="1184" height="1465" viewBox="0 0 1184 1465" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="marcos-desenvolvimento-3-a-5-expanded">
 <g id="Group 773">
-<g id="Rectangle 221" filter="url(#filter0_d_2207_3133)">
+<g id="Rectangle 221" filter="url(#filter0_d_2326_11258)">
 <rect x="4" width="1176" height="1457" rx="12" fill="#F1F1F4"/>
 </g>
 <g id="Group 772">
 <rect id="Rectangle 218" x="41" y="36" width="268" height="112" fill="#D4D5DD"/>
 <rect id="Rectangle 219" x="317" y="36" width="535" height="112" fill="#D4D5DD"/>
 <rect id="Rectangle 220" x="862" y="36" width="281" height="112" fill="#D4D5DD"/>
-<rect id="Rectangle 209" x="41" y="164" width="811" height="348" fill="#E8D6EC"/>
+<rect id="Rectangle 209" x="41" y="164" width="811" height="348" fill="#C8E9DC"/>
 <rect id="Rectangle 212" x="863" y="164" width="279" height="348" fill="#F1F1F4"/>
 <rect id="Rectangle 214" x="862" y="519" width="281" height="362" fill="#F1F1F4"/>
 <rect id="Rectangle 216" x="862" y="884" width="281" height="546" fill="#F1F1F4"/>
-<rect id="Rectangle 221_2" x="1031" y="884" width="112" height="546" fill="#E5A4F3"/>
-<rect id="Rectangle 215" x="945" y="519" width="112" height="362" fill="#E3C3EB"/>
-<rect id="Rectangle 213" x="863" y="164" width="111" height="348" fill="#E8D6EC"/>
-<rect id="Rectangle 210" x="41" y="516" width="811" height="365" fill="#E3C3EB"/>
-<rect id="Rectangle 211" x="41" y="884" width="811" height="546" fill="#E5A4F3"/>
+<rect id="Rectangle 221_2" x="1031" y="884" width="112" height="546" fill="#C8D5FF"/>
+<rect id="Rectangle 215" x="945" y="519" width="112" height="362" fill="#F2D8EF"/>
+<rect id="Rectangle 213" x="863" y="164" width="111" height="348" fill="#C8E9DC"/>
+<rect id="Rectangle 210" x="41" y="516" width="811" height="365" fill="#F2D8EF"/>
+<rect id="Rectangle 211" x="41" y="884" width="811" height="546" fill="#C8D5FF"/>
 <text id="Emparelha cores Copia c&#195;&#173;rculos Fala clara e compreens&#195;&#181;vel Pula em um p&#195;&#169; s&#195;&#179;" fill="black" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="58" y="222.483">Emparelha cores&#10;</tspan><tspan x="58" y="305.483">Copia c&#xed;rculos&#10;</tspan><tspan x="58" y="388.483">Fala clara e </tspan><tspan x="58" y="413.483">compreens&#xf5;vel&#10;</tspan><tspan x="58" y="496.483">Pula em um p&#xe9; s&#xf3;</tspan></text>
 <text id="Veste-se sem ajuda Copia cruz Compreende 4 posi&#195;&#167;&#195;&#181;es" fill="black" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="59" y="548.483">Veste-se sem ajuda&#10;</tspan><tspan x="59" y="631.483">Copia cruz&#10;</tspan><tspan x="59" y="714.483">Compreende 4 posi&#xe7;&#xf5;es</tspan></text>
 <text id="Equilibra-se em cada p&#195;&#169; 3 segundos" fill="black" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="58" y="830.483">Equilibra-se em cada p&#xe9; 3 </tspan><tspan x="58" y="855.483">segundos</tspan></text>
@@ -31,7 +31,7 @@
 <line id="Line 10" x1="41" y1="1029" x2="1143" y2="1029" stroke="#A9ABBC" stroke-width="2"/>
 <line id="Line 11" x1="41" y1="1175" x2="1143" y2="1175" stroke="#A9ABBC" stroke-width="2"/>
 <line id="Line 12" x1="41" y1="1354" x2="1143" y2="1354" stroke="#A9ABBC" stroke-width="2"/>
-<g id="Frame 836" clip-path="url(#clip0_2207_3133)">
+<g id="Frame 836" clip-path="url(#clip0_2326_11258)">
 <path id="Line 13" d="M862 -244.5L862 924.5" stroke="#70728F" stroke-width="2"/>
 <line id="Line 14" x1="891" y1="-244.5" x2="891" y2="924.5" stroke="#A9ABBC" stroke-width="2"/>
 <line id="Line 22" x1="919" y1="-244.5" x2="919" y2="924.5" stroke="#A9ABBC" stroke-width="2"/>
@@ -42,8 +42,9 @@
 <line id="Line 19" x1="1059" y1="-244.5" x2="1059" y2="924.5" stroke="#A9ABBC" stroke-width="2"/>
 <line id="Line 20" x1="1087" y1="-244.5" x2="1087" y2="924.5" stroke="#A9ABBC" stroke-width="2"/>
 <line id="Line 23" x1="1115" y1="-244.5" x2="1115" y2="924.5" stroke="#A9ABBC" stroke-width="2"/>
+<line id="Line 21" x1="1143" y1="-244.5" x2="1143" y2="924.5" stroke="#70728F" stroke-width="2"/>
 </g>
-<g id="Frame 840" clip-path="url(#clip1_2207_3133)">
+<g id="Frame 840" clip-path="url(#clip1_2326_11258)">
 <path id="Line 13_2" d="M862 117L862 1286" stroke="#70728F" stroke-width="2"/>
 <line id="Line 14_2" x1="891" y1="117" x2="891" y2="1286" stroke="#A9ABBC" stroke-width="2"/>
 <line id="Line 22_2" x1="919" y1="117" x2="919" y2="1286" stroke="#A9ABBC" stroke-width="2"/>
@@ -54,8 +55,9 @@
 <line id="Line 19_2" x1="1059" y1="117" x2="1059" y2="1286" stroke="#A9ABBC" stroke-width="2"/>
 <line id="Line 20_2" x1="1087" y1="117" x2="1087" y2="1286" stroke="#A9ABBC" stroke-width="2"/>
 <line id="Line 23_2" x1="1115" y1="117" x2="1115" y2="1286" stroke="#A9ABBC" stroke-width="2"/>
+<line id="Line 21_2" x1="1143" y1="117" x2="1143" y2="1286" stroke="#70728F" stroke-width="2"/>
 </g>
-<g id="Frame 841" clip-path="url(#clip2_2207_3133)">
+<g id="Frame 841" clip-path="url(#clip2_2326_11258)">
 <path id="Line 13_3" d="M862 572.5L862 1741.5" stroke="#70728F" stroke-width="2"/>
 <line id="Line 14_3" x1="891" y1="572.5" x2="891" y2="1741.5" stroke="#A9ABBC" stroke-width="2"/>
 <line id="Line 22_3" x1="919" y1="572.5" x2="919" y2="1741.5" stroke="#A9ABBC" stroke-width="2"/>
@@ -66,6 +68,7 @@
 <line id="Line 19_3" x1="1059" y1="572.5" x2="1059" y2="1741.5" stroke="#A9ABBC" stroke-width="2"/>
 <line id="Line 20_3" x1="1087" y1="572.5" x2="1087" y2="1741.5" stroke="#A9ABBC" stroke-width="2"/>
 <line id="Line 23_3" x1="1115" y1="572.5" x2="1115" y2="1741.5" stroke="#A9ABBC" stroke-width="2"/>
+<line id="Line 21_3" x1="1143" y1="572.5" x2="1143" y2="1741.5" stroke="#70728F" stroke-width="2"/>
 </g>
 <g id="Frame 837">
 <text id="42" fill="#292929" xml:space="preserve" style="white-space: pre" font-family="Open Sans" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="863" y="140.207">42</tspan></text>
@@ -88,31 +91,31 @@
 </g>
 </g>
 <g id="button-close">
-<circle id="Ellipse 9" cx="1140" cy="40" r="16" fill="#CA6AB7"/>
+<circle id="Ellipse 9" cx="1159" cy="24" r="12" fill="#CA6AB7"/>
 <g id="Group 641">
-<path id="Vector 29" d="M1133.6 33.5996L1146.4 46.3996" stroke="white" stroke-width="2" stroke-linecap="round"/>
-<path id="Vector 30" d="M1146.4 33.5996L1133.6 46.3996" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector 29" d="M1154.2 19.1992L1163.8 28.7992" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector 30" d="M1163.8 19.1992L1154.2 28.7992" stroke="white" stroke-width="2" stroke-linecap="round"/>
 </g>
 </g>
 </g>
 <defs>
-<filter id="filter0_d_2207_3133" x="0" y="0" width="1184" height="1465" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_2326_11258" x="0" y="0" width="1184" height="1465" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
 <feGaussianBlur stdDeviation="2"/>
 <feComposite in2="hardAlpha" operator="out"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2207_3133"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2207_3133" result="shape"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2326_11258"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2326_11258" result="shape"/>
 </filter>
-<clipPath id="clip0_2207_3133">
+<clipPath id="clip0_2326_11258">
 <rect width="280.001" height="344" fill="white" transform="translate(862 168)"/>
 </clipPath>
-<clipPath id="clip1_2207_3133">
+<clipPath id="clip1_2326_11258">
 <rect width="280.001" height="365" fill="white" transform="translate(862 519)"/>
 </clipPath>
-<clipPath id="clip2_2207_3133">
+<clipPath id="clip2_2326_11258">
 <rect width="280.001" height="546" fill="white" transform="translate(862 884)"/>
 </clipPath>
 </defs>

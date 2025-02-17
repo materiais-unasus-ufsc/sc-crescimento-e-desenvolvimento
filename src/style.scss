@@ -25,7 +25,7 @@
   padding: 2rem;
   border-radius: 1rem;
   text-align: center;
-  color: $color-neutral-daker;
+  color: $color-neutral-darker;
   font-family: $font-playpen-sans;
   font-size: 1.25rem;
   font-weight: 500;
@@ -279,7 +279,7 @@ body#about {
     max-width: 506px;
     border-radius: 0.75rem;
     background-color: $color-light-orchid-200;
-    color: $color-neutral-daker;
+    color: $color-neutral-darker;
     text-align: center;
     font-weight: 600;
 
@@ -344,6 +344,13 @@ body#about {
     &[type="warning"] {
       background-color: $color-new-orleans-200;
     }
+  }
+
+  #trissomiaComorbidadesTabs {
+    width: 100%;
+    align-items: end;
+    flex-wrap: nowrap;
+    overflow: scroll;
   }
 
   #trissomiaComorbidadesTabsContent {

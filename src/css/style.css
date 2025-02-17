@@ -5044,15 +5044,15 @@ h3 {
 }
 
 h4 {
-  color: #70728f;
+  color: #292929;
   font-size: 1.5rem;
   font-weight: 500;
 }
 
 h5 {
-  color: #434556;
+  color: #292929;
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /* --- LISTS --- */
@@ -5916,6 +5916,12 @@ body#about .message > h6 {
 }
 #un3 .callout[type=warning] {
   background-color: #efdeb9;
+}
+#un3 #trissomiaComorbidadesTabs {
+  width: 100%;
+  align-items: end;
+  flex-wrap: nowrap;
+  overflow: scroll;
 }
 #un3 #trissomiaComorbidadesTabsContent .row, #un3 #trissomiaComorbidadesTabsContent .hero .title, .hero #un3 #trissomiaComorbidadesTabsContent .title {
   --bs-gutter-x: 0.6rem;
