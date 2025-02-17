@@ -12,10 +12,10 @@ export const links = {
   chpt3: "./un3.html",
   chpt4: "./un4.html",
 
-  quiz1: "https://unasus-cp.moodle.ufsc.br/mod/quiz/view.php?id=9059",
-  quiz2: "",
-  quiz3: "",
-  quiz4: "",
+  quiz1: "https://unasus-cp.moodle.ufsc.br/mod/quiz/view.php?id=9076",
+  quiz2: "https://unasus-cp.moodle.ufsc.br/mod/quiz/view.php?id=9077",
+  quiz3: "https://unasus-cp.moodle.ufsc.br/mod/quiz/view.php?id=9078",
+  quiz4: "https://unasus-cp.moodle.ufsc.br/mod/quiz/view.php?id=9079",
 
   booklet: "https://unasus-cp.moodle.ufsc.br/mod/resource/view.php?id=9057",
   guide: "https://unasus-cp.moodle.ufsc.br/mod/resource/view.php?id=9058",
