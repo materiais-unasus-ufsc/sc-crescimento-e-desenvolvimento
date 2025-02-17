@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("ComponentsLoaded", () => {
   common.setupDropdownMenu(vars.links);
+  common.setupQuizCTA(vars.links);
 });
 
 export function navigate(option) {
