@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   common.loadComponents();
   common.loadCallouts();
   common.setUpPopovers();
+  common.setupReviewQuizes();
 });
 
 document.addEventListener("ComponentsLoaded", () => {
