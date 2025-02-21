@@ -25,4 +25,8 @@ export function navigate(option) {
   common.navigate(option, vars.links["main"], vars.navigation);
 }
 
+export function toggleVisibility(selector) {
+  helper.toggleVisibility(selector);
+}
+
 window.showSelector = helper.showSelector;

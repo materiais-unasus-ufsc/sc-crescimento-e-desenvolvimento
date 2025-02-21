@@ -5694,6 +5694,14 @@ ul.custom-round-tabs.nav.nav-tabs.orleans-tabs > li > button.active {
   width: 16px;
   height: 16px;
 }
+.review-quiz .quiz-alternative select {
+  width: 100%;
+  padding: 0.25rem;
+  font-size: 1rem;
+  background: none;
+  border: 1px solid #434556;
+  border-radius: 0.5rem;
+}
 .review-quiz .answer-field {
   margin-top: 2rem;
   display: flex;
@@ -6052,6 +6060,10 @@ body#about .message > h6 {
 }
 #un3 #trissomiaComorbidadesTabsContent .row, #un3 #trissomiaComorbidadesTabsContent .hero .title, .hero #un3 #trissomiaComorbidadesTabsContent .title {
   --bs-gutter-x: 0.6rem;
+}
+#un3 #review-marcos-desenvolvimento label {
+  width: 5rem;
+  text-align: right;
 }
 
 #un4 ul:not(.nav, .dropdown-menu) > li::before {
